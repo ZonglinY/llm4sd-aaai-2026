@@ -8,7 +8,7 @@
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: 3nd MATH-AI Workshop at NeurIPS'23
+title: 4th MATH-AI Workshop at NeurIPS'24
 
 
 # Short description of your site
@@ -27,7 +27,7 @@ navbar-links:
   # - Learn markdown: "http://www.markdowntutorial.com/"
   # - GitHub Pages: "https://pages.github.com/"
   # Organizers: "#organizers"
-  About: "https://mathai2023.github.io/"
+  About: "https://mathai2024.github.io/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -62,7 +62,7 @@ footer-link-col: "#404040"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author: Organizers of the 3nd MATH-AI Workshop at NeurIPS 2023
+author: Organizers of the 4th MATH-AI Workshop at NeurIPS 2024
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -70,7 +70,7 @@ author: Organizers of the 3nd MATH-AI Workshop at NeurIPS 2023
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   # rss: true
-  email: "mathai.neurips2023@gmail.com"
+  email: "mathai.neurips2024@gmail.com"
   # facebook: daattali
   # github: daattali
   # twitter: daattali
@@ -97,7 +97,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "mathai2023.github.io" # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "mathai2024.github.io" # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 

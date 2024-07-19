@@ -6,7 +6,7 @@ use-site-title: true
 ---
 <div class="venue" style="font-size: 27px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
   <!-- (NeurIPS 2023 Workshop: <a href="https://neurips.cc/virtual/2022/workshop/50015" target="_blank">Website</a>) <br> -->
-  (Room 217-219, New Orleans, December 15, 2023, <a href="https://neurips.cc/virtual/2023/workshop/66522" target="_blank">Website</a>)
+  (Vancouver, December 14 or December 15, 2024, <a href="xxxx" target="_blank">Website</a>)
 </div>
 
 
@@ -17,7 +17,8 @@ use-site-title: true
 # Previous MATH-AI Workshops
 
 <div class="container" style="margin-bottom: 10px;"></div>
-
+- [AI for Math Workshop @ ICML 2024](https://sites.google.com/view/ai4mathworkshopicml2024)
+- 3rd MATH-AI Workshop at NeurIPS'23: [The 3rd Workshop on Mathematical Reasoning and AI](https://mathai2023.github.io/)
 - 2nd MATH-AI Workshop at NeurIPS'22: [Toward Human-Level Mathematical Reasoning](https://mathai2022.github.io/)
 - 1st MATH-AI Workshop at ICLR'21: [The Role of Mathematical Reasoning in General Artificial Intelligence](https://mathai-iclr.github.io/)
 - MATHAI4ED Workshop at NeurIPS'21: [Math AI for Education: Bridging the Gap Between Research and Smart Education](https://mathai4ed.github.io/)
@@ -26,7 +27,7 @@ use-site-title: true
 
 # Reviewer Nomination
 
-If you'd like to become a reviewer for the workshop, or recommend someone, [please use this form](https://forms.gle/bjDLpGaYawHzfA4w6).
+If you'd like to become a reviewer for the workshop, or recommend someone, [please use this form](https://forms.gle/BssMrXeGgfMfLLFH9).
 
 # Overview
 
@@ -133,7 +134,8 @@ To address this question, we aim to bring together a diverse group of scholars f
 # Related Venues
 
 <div class="container" style="margin-bottom: 10px;"></div>
-
+- [ICML'24 Workshop on AI4MATH - AI for Math Workshop @ ICML 2024](https://sites.google.com/view/ai4mathworkshopicml2024)
+- [NeurIPS'23 Workshop on MATH-AI - The 3rd Workshop on Mathematical Reasoning and AI](https://mathai2023.github.io/)
 - [NeurIPS'22 Workshop on MATH-AI - Toward Human-Level Mathematical Reasoning](https://mathai2022.github.io/)
 - [NeurIPS'21 workshop on MATHAI4ED - Math AI for Education: Bridging the Gap Between Research and Smart Education](https://mathai4ed.github.io/)
 - [ICLR'21 workshop on MATH-AI - The Role of Mathematical Reasoning in General Artificial Intelligence](https://mathai-iclr.github.io/)
@@ -145,4 +147,4 @@ To address this question, we aim to bring together a diverse group of scholars f
 
 <hr>
 
-Contact: <mathai.neurips2023@gmail.com>.
+Contact: <mathai.neurips2024@gmail.com>.

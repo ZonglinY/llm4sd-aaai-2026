@@ -1,13 +1,13 @@
 ---
 layout: page
 title: MATH-AI
-subtitle: "The 3rd Workshop on Mathematical Reasoning and AI"
+subtitle: "The 4th Workshop on Mathematical Reasoning and AI"
 use-site-title: true
 ---
 <div class="venue" style="font-size: 27px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
-  <!-- (NeurIPS 2022 Workshop: <a href="https://neurips.cc/Conferences/2022" target="_blank">Website</a>) <br> -->
-  (Room 217-219, New Orleans, December 15, 2023, <a href="https://neurips.cc/virtual/2023/workshop/66522" target="_blank">Website</a>)
+  (Vancouver, December 14 or December 15, 2024, <a href="xxxx" target="_blank">Website</a>)
 </div>
+
 
 # Call for Papers
 
@@ -29,25 +29,24 @@ To address this question, we aim to bring together a diverse group of scholars f
 ### Important Dates 
 
 <!--{% include dates.md %} <a href="{site.url}/2020/img/KR2ML2020_template.zip">NeurIPS paper format (adapted)</a>. -->
-**Paper submission opens:** Aug 1, 2023 <br>
-<!-- **Deadline for paper submission: Oct 06, 2021 (11:59pm Pacific Time, one day after the ICLR 2022 submission deadline.)** <br> -->
-**Deadline for paper submission**: September 29, 2023 (Extended to **Oct 02, 2023**) <br>
-**Notification:** October 27, 2023 <br>
-**Camera Ready:** November 15, 2023 <br>
-**Workshop:** December 15, 2023
+**Paper submission opens:** Aug 1, 2024 <br>
+**Deadline for paper submission**: August 30, 2024 <br>
+**Notification:** September 30, 2024 <br>
+**Camera Ready:** October 30, 2024 <br>
+**Workshop:** December 15, 2024
 
 ### Submission Requirements
 
-Submissions to MATH-AI 2023 are limited to 4 pages of content, but may contain an unlimited number of pages for references and appendices. The latter may not necessarily be read by the reviewers. We request and recommend that authors rely on the supplementary material only to include minor details (e.g., hyperparameter settings, reproducibility information, etc.) that do not fit in the 4 pages. The review process is double-blind, so please ensure that all papers are appropriately anonymised.
+Submissions to MATH-AI 2024 are limited to 4 pages of content, but may contain an unlimited number of pages for references and appendices. The latter may not necessarily be read by the reviewers. We request and recommend that authors rely on the supplementary material only to include minor details (e.g., hyperparameter settings, reproducibility information, etc.) that do not fit in the 4 pages. The review process is double-blind, so please ensure that all papers are appropriately anonymised.
 
 All submissions must be formatted with LaTeX using the [NeurIPS paper format (Adapted)](img/neurips_2023.zip).
 
 All accepted papers will be presented in an in-person poster session, and some will be selected for oral presentation. We also permit papers that have been recently published or are under submission to another venue. Please mark such papers accordingly upon submission. The page limit for these submissions is 4 pages. Accepted papers will be displayed on the MATH-AI 2023 homepage, but are to be considered non-archival.
 
-Submission Link: [https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/MATH-AI](https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/MATH-AI) 
+Submission Link: [TBD](xxxx) 
 
 ### Camera-ready Requirements
 
 The final version of all accepted papers will be given one additional page of content (up to 5 pages) so that reviewers’ comments can be taken into account.
 
-Please email any enquiries to [mathai.neurips2023@gmail.com](mailto:mathai.neurips2023@gmail.com).
+Please email any inquiries to [mathai.neurips2024@gmail.com](mailto:mathai.neurips2024@gmail.com).

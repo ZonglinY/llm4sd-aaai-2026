@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3nd MATH-AI Workshop at NeurIPS'23</title>
+    <title>4th MATH-AI Workshop at NeurIPS&apos;24</title>
     <description>Math-AI</description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
