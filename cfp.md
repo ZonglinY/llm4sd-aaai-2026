@@ -30,8 +30,8 @@ To address this question, we aim to bring together a diverse group of scholars f
 
 <!--{% include dates.md %} <a href="{site.url}/2020/img/KR2ML2020_template.zip">NeurIPS paper format (adapted)</a>. -->
 **Paper submission opens:** Aug 1, 2024 <br>
-**Deadline for paper submission**: August 30, 2024 <br>
-**Notification:** September 30, 2024 <br>
+**Deadline for paper submission**: September 20, 2024 <br>
+**Notification:** October 14, 2024 <br>
 **Camera Ready:** October 30, 2024 <br>
 **Workshop:** December 15, 2024
 
