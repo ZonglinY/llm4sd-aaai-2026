@@ -8,35 +8,35 @@ javigad:
 sbengio:
     name: "Samy Bengio"
     url: "https://bengio.abracadoudou.com/"
-    affiliation:
+    affiliation: "Apple"
     img: "sbengio.jpg"
     bio: "Samy Bengio is a Senior Directory of AI and Machine Learning Research at Apple. His recent work has studied the reasoning abilities of transformers, particularly from a mathematical and theoretical perspective. Before that, he was a distinguished scientist at Google Research since 2007 where he was heading the Google Brain team, and at IDIAP in the early 2000s where he co-wrote the well-known open-source Torch machine learning library."
 
 jboaler:
     name: "Jo Boaler"
     url: "https://ed.stanford.edu/faculty/joboaler"
-    affiliation:
+    affiliation: "Stanford University"
     img: "jboaler.jpg"
     bio: "Jo Boaler is a professor of Mathematics Education at Stanford University. Her research focuses on understanding the impact of different teaching approaches on student learning in mathematics. She is a former president of the International Association of Women and Mathematics and founded Youcubed, a foundation to empower students and teachers to more creatively learn mathematics."
 
 nbrown:
     name: "Noam Brown"
     url: "https://noambrown.github.io/"
-    affiliation:
+    affiliation: "OpenAI"
     img: "nbrown.jpg"
     bio: "Noam Brown is a research scientist at OpenAI working on multi-step reasoning, self-play, and multi-agent AI. He previously developed CICERO, the first AI to achieve human-level performance at Diplomacy and previously created the first AI to defeat top humans in no-limit poker."
 
 dsong:
     name: "Dawn Song"
     url: "https://dawnsong.io/"
-    affiliation:
+    affiliation: "UC Berkeley"
     img: "dsong.jpg"
     bio: "Dawn Song is a Professor at UC Berkeley. She has done research in AI and deep learning, blockchain/web3, security and privacy, as well as AI for coding and mathematical reasoning. She is the recipient of various awards including the MacArthur Fellowship, the Guggenheim Fellowship, and the NSF CAREER Award."
 
 awagner:
     name: "Adam Wagner"
     url: "https://users.wpi.edu/~zadam/index.html"
-    affiliation: "Worcestor Polytechnic Institute and Google DeepMind"
+    affiliation: "WPI and Google DeepMind"
     img: "awagner.jpg"
     bio: "Adam Wagner is an assistant professor of mathematics at WPI and a mathematical consultant for Google DeepMind. His former focus was in combinatorics and graph theory, though his recent work has shifted towards finding ways to integrate AI with mathematics research to aid mathematical intuition and advance mathematical research."
 
