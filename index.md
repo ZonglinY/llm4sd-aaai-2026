@@ -1,11 +1,10 @@
 ---
 layout: page
 title: MATH-AI
-subtitle: "The 3rd Workshop on Mathematical Reasoning and AI"
+subtitle: "The 4th Workshop on Mathematical Reasoning and AI"
 use-site-title: true
 ---
 <div class="venue" style="font-size: 27px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
-  <!-- (NeurIPS 2023 Workshop: <a href="https://neurips.cc/virtual/2022/workshop/50015" target="_blank">Website</a>) <br> -->
   (Vancouver, December 14 or December 15, 2024, <a href="xxxx" target="_blank">Website</a>)
 </div>
 
@@ -46,20 +45,6 @@ To address this question, we aim to bring together a diverse group of scholars f
 - **New capabilities**: How do we move beyond our current techniques?
 - **Education**: What role can deep learning models play in mathematics education, especially in contexts with limited educational resources?
 - **Applications**: What applications could AI systems enable in the near- and long-term? Example domains include software verification, sciences, engineering, finance, education, and mathematics itself.
-
-
-
-
-<!-- | ------------- |:-------------:|
-| **Submission** | October 09, 2020 (midnight Pacific Time) |
-| **Notification** | October 30, 2020 |
-| **Submission link**| [https://cmt3.research.microsoft.com/KR2ML2020](https://cmt3.research.microsoft.com/KR2ML2020) -->
-
-<!--* Thank you Amazon for sponsoring a best paper award!
-* The 3 best papers will be presented in talks at the workshop! 
-* <a href="schedule">The schedule is online now!</a> 
-* <a href="papers">List of accepted papers available!</a> -->
-<!--* **NEW** Updates to existing submissions possible until October 12 (11:59pm Pacific Time) <br>New submissions close on October 09 (11:59pm Pacific Time)-->
 
 
 <hr>

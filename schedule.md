@@ -10,16 +10,16 @@ use-site-title: true
 
 # Schedule
 
-#### Friday, December 15, 2023
+<!-- #### Friday, December 14th, 2023
 #### All times are in Central Standard Time (CST) ([Check local time](https://www.google.com/search?q=time+for+local+new+orleans))
 
 
 #### Location: Room 217-219, New Orleans Convention Center ([Map](https://goo.gl/maps/8WXJ8h4Svng793Cc8))
-#### Live video stream: [Link](https://neurips.cc/virtual/2022/workshop/50015)
+#### Live video stream: [Link](https://neurips.cc/virtual/2022/workshop/50015) -->
 
+TBD
 
-
-<div class="container">
+<!-- <div class="container">
   <div class="row">
     <table class="table">
         {% for s in site.data.schedule %}
@@ -92,11 +92,8 @@ use-site-title: true
           </td>
         {% endif %}
 
-        <!-- <td>
-            {% capture id %}{{ p[0] }}{% endcapture %}
-            {{ s }}
-        </td> -->
         </tr>
         {% endfor %}
     </table>
   </div>
+</div> -->

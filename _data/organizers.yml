@@ -1,35 +1,40 @@
-zliang:
-  name: "Zhenwen Liang"
-  url: "http://zhenwen-nlp.github.io/"
-  affiliation: "Notre Dame"
-  img: "zliang.jpg"
-ajiang:
-  name: "Albert Qiaochu Jiang"
-  url: "https://albertqjiang.github.io/"
-  affiliation: "Cambridge"
-  img: "ajiang.jpg"
-kcollins:
-  name: "Katie Collins"
-  url: "https://collinskatie.github.io/"
-  affiliation: "Cambridge"
-  img: "kcollins.png"
+agu:
+  name: "Alex Gu"
+  url: "https://minimario.github.io/"
+  affiliation: "MIT"
+  img: "agu.jpg"
+gpoesia:
+  name: "Gabriel Poesia"
+  url: "https://gpoesia.com/"
+  affiliation: "Stanford"
+  img: "gpoesia.jpg"
+czhang:
+  name: "Cedegao Zhang"
+  url: "https://cedzhang.com/"
+  affiliation: "MIT"
+  img: "czhang.jpg"
+hzhou:
+  name: "Hattie Zhou"
+  url: "https://hattiezhou.com/"
+  affiliation: "MILA"
+  img: "hzhou.png"
 plu:
   name: "Pan Lu"
   url: "https://lupantech.github.io/"
-  affiliation: "UCLA"
-  img: "panlu.jpg"
-kyang:
-  name: "Kaiyu Yang"
-  url: "https://yangky11.github.io/"
-  affiliation: "Caltech"
-  img: "kyang.jpg"
-swelleck:
-  name: "Sean Welleck"
-  url: "https://wellecks.com/"
-  affiliation: "UW, AI2 -> CMU"
-  img: "swelleck.png"
-jmcclelland:
-  name: "Jay McClelland"
-  url: "https://stanford.edu/~jlmcc/"
   affiliation: "Stanford"
-  img: "jmcclelland.png"
+  img: "panlu.jpg"
+smishra:
+  name: "Swaroop Mishra"
+  url: "https://swarooprm.github.io/"
+  affiliation: "Google DeepMind"
+  img: "smishra.png"
+kchang:
+  name: "Kai-Wei Chang"
+  url: "https://web.cs.ucla.edu/~kwchang/"
+  affiliation: "UCLA, Alexa AI"
+  img: "kchang.png"
+asolar:
+  name: "Armando Solar-Lezama"
+  url: "https://people.csail.mit.edu/asolar/"
+  affiliation: "Armando Solar-Lezama"
+  img: "asolar.jpg"
