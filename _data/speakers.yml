@@ -1,91 +1,48 @@
-fcharton:
-    name: "Guy Van den Broeck"
-    url: "http://web.cs.ucla.edu/~guyvdb/"
-    affiliation: "UCLA"
-    img: "gbroeck.jpg"
-    bio: "Guy is an Associate Professor and Samueli Fellow at UCLA, where he directs the Statistical and Relational Artificial Intelligence (StarAI) lab. His research interests are in machine learning (e.g. probabilistic programming), knowledge representation and reasoning (e.g., probabilistic inference), and artificial intelligence in general."
+javigad:
+    name: "Jeremy Avigad"
+    url: "https://www.andrew.cmu.edu/user/avigad/"
+    affiliation: "Carnegie Mellon University"
+    img: "javigad.jpg"
+    bio: "Jeremy is a professor in the Department of Philosophy and the Department of Mathematical Sciences at Carnegie Mellon University. His research focuses on mathematical logic and formal methods in mathematics, as well as the philosophy and history of mathematics."
 
-xchen:
-    name: "Xinyun Chen"
-    url: "https://jungyhuk.github.io/"
-    affiliation: "Google DeepMind"
-    img: "xinyun.jpg"
-    bio: "Xinyun Chen is a senior research scientist at Google DeepMind. Her research interests are large language models, code generation, and AI security. She obtained her Ph.D. degree in Computer Science from UC Berkeley in 2022, and her B.S. degree in Computer Science from ACM Honored Class, Shanghai Jiao Tong University. She also spent time in Meta AI Research and National Institute of Informatics."
+sbengio:
+    name: "Samy Bengio"
+    url: "https://bengio.abracadoudou.com/"
+    affiliation:
+    img: "sbengio.jpg"
+    bio: "Samy Bengio is a Senior Directory of AI and Machine Learning Research at Apple. His recent work has studied the reasoning abilities of transformers, particularly from a mathematical and theoretical perspective. Before that, he was a distinguished scientist at Google Research since 2007 where he was heading the Google Brain team, and at IDIAP in the early 2000s where he co-wrote the well-known open-source Torch machine learning library."
 
+jboaler:
+    name: "Jo Boaler"
+    url: "https://ed.stanford.edu/faculty/joboaler"
+    affiliation:
+    img: "jboaler.jpg"
+    bio: "Jo Boaler is a professor of Mathematics Education at Stanford University. Her research focuses on understanding the impact of different teaching approaches on student learning in mathematics. She is a former president of the International Association of Women and Mathematics and founded Youcubed, a foundation to empower students and teachers to more creatively learn mathematics."
 
-ngoodman:
-    name: "Noah D. Goodman"
-    url: "https://cocolab.stanford.edu/ndg"
-    affiliation: "Stanford University"
-    img: "noah.jpg"
-    bio: "Noah D. Goodman is Assistant Professor of Psychology, Linguistics (by courtesy), and Computer Science (by courtesy) at Stanford University. He received his Ph.D. in mathematics from the University of Texas at Austin in 2003. In 2005 he entered cognitive science, working as Postdoc and Research Scientist at MIT. In 2010 he moved to Stanford where he runs the Computation and Cognition Lab. He studies the computational basis of human thought, merging behavioral experiments with formal methods from statistics and logic. Specific projects vary from concept learning and language understanding to inference algorithms for probabilistic programming languages."
+nbrown:
+    name: "Noam Brown"
+    url: "https://noambrown.github.io/"
+    affiliation:
+    img: "nbrown.jpg"
+    bio: "Noam Brown is a research scientist at OpenAI working on multi-step reasoning, self-play, and multi-agent AI. He previously developed CICERO, the first AI to achieve human-level performance at Diplomacy and previously created the first AI to defeat top humans in no-limit poker."
 
-tgowers:
-    name: "Timothy Gowers"
-    url: "https://www.dpmms.cam.ac.uk/~wtg10/"
-    affiliation: "College de France"
-    img: "tgowers.png"
-    bio: "Timothy Gowers is a prominent British mathematician known primarily for his research in functional analysis and combinatorics. He was awarded the Fields Medal in 1998 for his contributions to the theory of Banach spaces."
+dsong:
+    name: "Dawn Song"
+    url: "https://dawnsong.io/"
+    affiliation:
+    img: "dsong.jpg"
+    bio: "Dawn Song is a Professor at UC Berkeley. She has done research in AI and deep learning, blockchain/web3, security and privacy, as well as AI for coding and mathematical reasoning. She is the recipient of various awards including the MacArthur Fellowship, the Guggenheim Fellowship, and the NSF CAREER Award."
 
-mjamnik:
-    name: "Mateja Jamnik"
-    url: "https://www.cl.cam.ac.uk/~mj201/index.html"
-    affiliation: "University of Cambridge"
-    img: "mjamnik.jpg"
-    bio: "Mateja is a full Professor of Artificial Intelligence in the Department of Computer Science and Technology (Computer Laboratory) at the University of Cambridge, UK. She is interested in human intuitive reasoning and wants to make computers think intuitively too."
-
-mjohansson:
-    name: "Moa Johansson"
-    url: "https://www.cse.chalmers.se/~jomoa/"
-    affiliation: "Chalmers University"
-    img: "mjohan.jpeg"
-    bio: "Moa is currently an Associate Professor (Docent) at the Departement of Computer Science and Engineering at Chalmers University. Her research interests include a diverse mix of applications of AI: from mathematics and automated reasoning to sports science and natural language processing for political science."
-
-klauter:
-    name: "Kristin Lauter"
-    url: "https://ai.facebook.com/people/kristin-lauter/"
-    affiliation: "FAIR Labs North America, Meta"
-    img: "klauter.jpg"
-    bio: "Kristin Estella Lauter is a renowned American mathematician and cryptographer, currently she is the West Coast Head of Research Science for Facebook AI Research (FAIR). She was a Partner Research Manager at Microsoft Research for 22 years. Before that, She worked as an assistant Professor of Mathematics at the University of Michigan."
-
-rtalia:
-    name: "Talia Ringer"
-    url: "https://dependenttyp.es/"
-    affiliation: "UIUC"
-    img: "rtalia.png"
-    bio: "Talia Ringer is an Assistant Professor with the PL/FM/SE group at Illinois. Prior to Illinois, Dr. Talia earned a PhD in 2021 from the University of Washington, working with the PLSE group. Dr. Talia likes to build proof engineering technologies to make the world a reality. In doing so, Dr. Talia loves to use the whole toolbox --- everything from dependent type theory to program transformations to neural proof synthesis --- all in service of real humans."
-
-psmolensky:
-    name: "Paul Smolensky"
-    url: "https://cogsci.jhu.edu/directory/paul-smolensky/"
-    affiliation: "JHU, Microsoft"
-    img: "psmolensky.jpg"
-    bio: "Paul Smolensky is a partner researcher in the Deep Learning Group and part-year Krieger-Eisenhower Professor of Cognitive Science at Johns Hopkins University. His research focuses on integrating symbolic and neural network computation for modeling reasoning and, especially, grammar in the human mind/brain."
-
-asolarlezama:
-    name: "Armando Solar-Lezama"
-    url: "https://www.csail.mit.edu/person/armando-solar-lezama"
-    affiliation: "MIT"
-    img: "asolar.jpg"
-    bio: "Armando Solar-Lezama is a professor at MIT where he leads the Computer Aided Programming Group. His research interests include software synthesis and its applications in diverse areas such as high-performance computing, information flow security and probabilistic programming."
-
-ywu:
-    name: "Yuhuai (Tony) Wu"
-    url: "http://www.cs.toronto.edu/~ywu/"
-    affiliation: "xAI"
-    img: "ywu.png"
-    bio: "Tony was a senior research scientist at Google and a postdoctoral scholar at Stanford, mentored by Percy Liang and Jay McClelland. He was a Google Ph.D. Fellow in machine learning and a co-creator of AlphaStar. He is currently focusing on building machines that can reason and do math in a way as abstract and creative as humans."
-
-exing:
-    name: "Eric Xing"
-    url: "https://mbzuai.ac.ae/study/faculty/professor-eric-xing/"
-    affiliation: "MBZUAI"
-    img: "exing.jpg"
-    bio: "Eric is the President and University Professor of Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). Prior to current commitment, he was a professor in the School of Computer Science at CMU. He works on machine learning, computational biology, and statistical methodology."
+awagner:
+    name: "Adam Wagner"
+    url: "https://users.wpi.edu/~zadam/index.html"
+    affiliation: "Worcestor Polytechnic Institute and Google DeepMind"
+    img: "awagner.jpg"
+    bio: "Adam Wagner is an assistant professor of mathematics at WPI and a mathematical consultant for Google DeepMind. His former focus was in combinatorics and graph theory, though his recent work has shifted towards finding ways to integrate AI with mathematics research to aid mathematical intuition and advance mathematical research."
 
 dzhou:
     name: "Denny Zhou"
     url: "https://dennyzhou.github.io/"
     affiliation: "Google DeepMind"
-    img: "dzhou.jpeg"
+    img: "dzhou.jpg"
     bio: "Denny is the founder and lead of the Reasoning Team in Google Brain, aiming to revolutionize machine learning by introducing reasoning to address challenges such as learning from few examples or instructions only, enhancing interpretability, and handling out-of-distribution/domain generalization."
