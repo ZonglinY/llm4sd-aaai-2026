@@ -6,8 +6,7 @@ use-site-title: true
 ---
 
 # Speakers & Panelists
-TBD
-<!-- <div class="container" style="margin-top: 25px;margin-bottom: 40px;">
+<div class="container" style="margin-top: 25px;margin-bottom: 40px;">
   {% for p in site.data.speakers %}
   {% if forloop.index<15 %}
   <div class="row">
@@ -23,4 +22,4 @@ TBD
   <br>
   {% endif %}
   {% endfor %}
-</div> -->
+</div>

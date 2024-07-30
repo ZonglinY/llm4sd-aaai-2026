@@ -71,7 +71,21 @@
 
   
   <meta property="og:description" content="# Speakers &amp; Panelists
-TBD
+
+  {% for p in site.data.speakers %}
+  {% if forloop.index
+    
+    {% capture id %}{{ p[0] }}{% endcapture %}
+    {% include profile.html p=p %}
+    
+    
+    {% capture id %}{{ p[1] }}{% endcapture %}
+    {% include profile_detail.html p=p %}
+    
+  
+  
+  {% endif %}
+  {% endfor %}
 
 ">
   
@@ -99,7 +113,21 @@ TBD
 
   
   <meta name="twitter:description" content="# Speakers &amp; Panelists
-TBD
+
+  {% for p in site.data.speakers %}
+  {% if forloop.index
+    
+    {% capture id %}{{ p[0] }}{% endcapture %}
+    {% include profile.html p=p %}
+    
+    
+    {% capture id %}{{ p[1] }}{% endcapture %}
+    {% include profile_detail.html p=p %}
+    
+  
+  
+  {% endif %}
+  {% endfor %}
 
 ">
   
@@ -239,10 +267,10 @@ TBD
 
 <div class="container" role="main">
   <h1 id="speakers--panelists">Speakers &amp; Panelists</h1>
-<p>TBD
-&lt;!– &lt;div class="container" style="margin-top: 25px;margin-bottom: 40px;"&gt;</p>
-
-<div class="row">
+<div class="container" style="margin-top: 25px;margin-bottom: 40px;">
+  
+  
+  <div class="row">
     <div class="col-sm">
     
     <div class="col-xs-6 col-sm-4 col-lg-2 col-xl-2 text-center" id="javigad" style="height: 300px">
@@ -261,9 +289,11 @@ TBD
 </div>
     </div>
   </div>
-<p><br /></p>
-
-<div class="row">
+  <br />
+  
+  
+  
+  <div class="row">
     <div class="col-sm">
     
     <div class="col-xs-6 col-sm-4 col-lg-2 col-xl-2 text-center" id="sbengio" style="height: 300px">
@@ -282,9 +312,11 @@ TBD
 </div>
     </div>
   </div>
-<p><br /></p>
-
-<div class="row">
+  <br />
+  
+  
+  
+  <div class="row">
     <div class="col-sm">
     
     <div class="col-xs-6 col-sm-4 col-lg-2 col-xl-2 text-center" id="jboaler" style="height: 300px">
@@ -303,9 +335,11 @@ TBD
 </div>
     </div>
   </div>
-<p><br /></p>
-
-<div class="row">
+  <br />
+  
+  
+  
+  <div class="row">
     <div class="col-sm">
     
     <div class="col-xs-6 col-sm-4 col-lg-2 col-xl-2 text-center" id="nbrown" style="height: 300px">
@@ -324,9 +358,11 @@ TBD
 </div>
     </div>
   </div>
-<p><br /></p>
-
-<div class="row">
+  <br />
+  
+  
+  
+  <div class="row">
     <div class="col-sm">
     
     <div class="col-xs-6 col-sm-4 col-lg-2 col-xl-2 text-center" id="dsong" style="height: 300px">
@@ -345,9 +381,11 @@ TBD
 </div>
     </div>
   </div>
-<p><br /></p>
-
-<div class="row">
+  <br />
+  
+  
+  
+  <div class="row">
     <div class="col-sm">
     
     <div class="col-xs-6 col-sm-4 col-lg-2 col-xl-2 text-center" id="awagner" style="height: 300px">
@@ -366,9 +404,11 @@ TBD
 </div>
     </div>
   </div>
-<p><br /></p>
-
-<div class="row">
+  <br />
+  
+  
+  
+  <div class="row">
     <div class="col-sm">
     
     <div class="col-xs-6 col-sm-4 col-lg-2 col-xl-2 text-center" id="dzhou" style="height: 300px">
@@ -387,9 +427,10 @@ TBD
 </div>
     </div>
   </div>
-<p><br /></p>
-
-<p>&lt;/div&gt; –&gt;</p>
+  <br />
+  
+  
+</div>
 
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
