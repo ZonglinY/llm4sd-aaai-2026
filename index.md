@@ -98,7 +98,7 @@ To address this question, we aim to bring together a diverse group of scholars f
   <div class="row">
     {% for p in site.data.organizers %}
     {% capture id %}{{ p[0] }}{% endcapture %}
-    {% if forloop.index>4 and forloop.index<=7%}
+    {% if forloop.index>4 and forloop.index<=8%}
     {% include profile.html p=p %}
     {% endif %}
     {% endfor %}
