@@ -13,7 +13,7 @@ use-site-title: true
 
 Recent advancements in large language models (LLMs) have unlocked new opportunities at the intersection of artificial intelligence and mathematical reasoning, ranging from new methods that solve complex problems or prove theorems, to new forms of human-machine collaboration in mathematics and beyond. 
 
-Our proposed workshop is centered on the intersection of deep learning and mathematical reasoning, with an emphasis on, but not limited to, large language models. 
+Our proposed workshop is centered on the intersection of arficial intelligence and mathematical reasoning, with an emphasis on, but not limited to, large language models. 
 Our guiding theme is:
 
 *“To what extent can machine learning models comprehend mathematics, and what applications could arise from this capability?”*
@@ -29,7 +29,7 @@ To address this question, we aim to bring together a diverse group of scholars f
 ### Important Dates 
 
 <!--{% include dates.md %} <a href="{site.url}/2020/img/KR2ML2020_template.zip">NeurIPS paper format (adapted)</a>. -->
-**Paper submission opens:** Aug 1, 2024 <br>
+**Paper submission opens:** August 1, 2024 <br>
 **Deadline for paper submission**: September 20, 2024 <br>
 **Notification:** October 14, 2024 <br>
 **Camera Ready:** October 30, 2024 <br>
