@@ -12,13 +12,6 @@ sbengio:
     img: "sbengio.jpg"
     bio: "Samy Bengio is a Senior Directory of AI and Machine Learning Research at Apple. His recent work has studied the reasoning abilities of transformers, particularly from a mathematical and theoretical perspective. Before that, he was a distinguished scientist at Google Research since 2007 where he was heading the Google Brain team, and at IDIAP in the early 2000s where he co-wrote the well-known open-source Torch machine learning library."
 
-jboaler:
-    name: "Jo Boaler"
-    url: "https://ed.stanford.edu/faculty/joboaler"
-    affiliation: "Stanford University"
-    img: "jboaler.jpg"
-    bio: "Jo Boaler is a professor of Mathematics Education at Stanford University. Her research focuses on understanding the impact of different teaching approaches on student learning in mathematics. She is a former president of the International Association of Women and Mathematics and founded Youcubed, a foundation to empower students and teachers to more creatively learn mathematics."
-
 nbrown:
     name: "Noam Brown"
     url: "https://noambrown.github.io/"
