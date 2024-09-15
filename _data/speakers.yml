@@ -19,6 +19,13 @@ nbrown:
     img: "nbrown.jpg"
     bio: "Noam Brown is a research scientist at OpenAI working on multi-step reasoning, self-play, and multi-agent AI. He previously developed CICERO, the first AI to achieve human-level performance at Diplomacy and previously created the first AI to defeat top humans in no-limit poker."
 
+junehyuk:
+    name: "Junehyuk Jung"
+    url: "https://sites.google.com/brown.edu/junehyuk"
+    affiliation: "Brown"
+    img: "junehyuk.jpg"
+    bio: "Junehyuk Jung is an associate professor of mathematics at Brown University, and a Visiting Researcher at Google DeepMind. He is interested in problems involving arithmetic hyperbolic manifolds and/or eigenfunctions of the Laplace-Beltrami operator."
+
 dsong:
     name: "Dawn Song"
     url: "https://dawnsong.io/"
