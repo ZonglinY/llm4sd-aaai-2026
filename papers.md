@@ -10,4 +10,31 @@ use-site-title: true
 
 # Accepted Papers
 
-TBD
+The list of accepted papers can be found on OpenReview <a href="https://openreview.net/group?id=NeurIPS.cc/2024/Workshop/MATH-AI#tab-accept">here</a>.
+
+# Reviewers
+
+We are grateful to our fantastic reviewers for making our workshop reviewing process run smoothly:
+
+<div class="reviewers">
+<ul>
+{% for reviewer in site.data.pc.people %}
+    <li>{{ reviewer }}</li>
+{% endfor %}
+</ul>
+</div>
+
+<style>
+.reviewers ul {
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    list-style-position: inside;
+    padding-left: 0;
+}
+.reviewers li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    padding: 2px 0;
+}
+</style>

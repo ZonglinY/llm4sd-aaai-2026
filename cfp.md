@@ -11,10 +11,6 @@ use-site-title: true
 
 # Call for Papers
 
-<p style="text-align:center;">
-  <h2 style="color:red;"><b>Note: Deadline has been extended to September 25, 2024!</b></h2>
-</p>
-
 
 Recent advancements in large language models (LLMs) have unlocked new opportunities at the intersection of artificial intelligence and mathematical reasoning, ranging from new methods that solve complex problems or prove theorems, to new forms of human-machine collaboration in mathematics and beyond. 
 

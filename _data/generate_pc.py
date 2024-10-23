@@ -1,14 +1,13 @@
 
 
-lines = open("ReviewerInvites.txt").readlines()
+lines = open("reviewers.txt").readlines()
 # print(pcs)
 
 names = []
 for line in lines[1:]:
-    name = " ".join(line.split("\t")[:2])
-    names.append(name)
+    names.append(line.strip())
 
-names = sorted(names, key=lambda name : name.split()[1], reverse=False)
+names = sorted(names, key=lambda name : name.split()[0], reverse=False)
 
 for name in names:
     print(f'"{name}",')

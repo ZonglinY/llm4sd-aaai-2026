@@ -13,10 +13,6 @@ use-site-title: true
 <div class="sharethis-inline-share-buttons"></div>
 <meta name="thumbnail" content="./img/neurips-logo-new.jpg" />
 
-<p style="text-align:center;">
-  <h2 style="color:red;"><b>Note: Deadline has been extended to September 25, 2024!</b></h2>
-</p>
-
 # Previous MATH-AI Workshops
 
 <div class="container" style="margin-bottom: 10px;"></div>
