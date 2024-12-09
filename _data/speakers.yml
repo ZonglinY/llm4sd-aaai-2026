@@ -1,7 +1,7 @@
 javigad:
     name: "Jeremy Avigad"
     url: "https://www.andrew.cmu.edu/user/avigad/"
-    affiliation: "Carnegie Mellon University"
+    affiliation: "CMU"
     img: "javigad.jpg"
     bio: "Jeremy is a professor in the Department of Philosophy and the Department of Mathematical Sciences at Carnegie Mellon University. His research focuses on mathematical logic and formal methods in mathematics, as well as the philosophy and history of mathematics."
 
@@ -10,14 +10,14 @@ sbengio:
     url: "https://bengio.abracadoudou.com/"
     affiliation: "Apple"
     img: "sbengio.jpg"
-    bio: "Samy Bengio is a Senior Directory of AI and Machine Learning Research at Apple. His recent work has studied the reasoning abilities of transformers, particularly from a mathematical and theoretical perspective. Before that, he was a distinguished scientist at Google Research since 2007 where he was heading the Google Brain team, and at IDIAP in the early 2000s where he co-wrote the well-known open-source Torch machine learning library."
+    bio: "Samy Bengio (PhD in computer science, University of Montreal, 1993) is a senior director of machine learning research at Apple since 2021. Before that, he was a distinguished scientist at Google Research since 2007 where he was heading part of the Google Brain team, and at IDIAP in the early 2000s where he co-wrote the well-known open-source Torch machine learning library. His research interests span many areas of machine learning such as deep architectures, representation learning, vision and language processing and more recently, reasoning."
 
 nbrown:
     name: "Noam Brown"
     url: "https://noambrown.github.io/"
     affiliation: "OpenAI"
     img: "nbrown.jpg"
-    bio: "Noam Brown is a research scientist at OpenAI working on multi-step reasoning, self-play, and multi-agent AI. He previously developed CICERO, the first AI to achieve human-level performance at Diplomacy and previously created the first AI to defeat top humans in no-limit poker."
+    bio: "Noam Brown is a research scientist at OpenAI investigating reasoning and multi-agent AI. He is a co-creator of the o1 model series by OpenAI. Prior to that, he co-created Libratus and Pluribus, the first AIs to defeat top humans in two-player no-limit poker and multiplayer no-limit poker, respectively, and Cicero, the first AI to achieve human-level performance in the natural language strategy game Diplomacy. He has received the Marvin Minsky Medal for Outstanding Achievements in AI, was named one of MIT Tech Review's 35 Innovators Under 35, and his work on Pluribus was named by Science as one of the top 10 scientific breakthroughs of 2019."
 
 junehyuk:
     name: "Junehyuk Jung"
@@ -36,9 +36,9 @@ dsong:
 awagner:
     name: "Adam Wagner"
     url: "https://users.wpi.edu/~zadam/index.html"
-    affiliation: "WPI and Google DeepMind"
+    affiliation: "Google DeepMind"
     img: "awagner.jpg"
-    bio: "Adam Wagner is an assistant professor of mathematics at WPI and a mathematical consultant for Google DeepMind. His former focus was in combinatorics and graph theory, though his recent work has shifted towards finding ways to integrate AI with mathematics research to aid mathematical intuition and advance mathematical research."
+    bio: "Adam Wagner is a research scientist at Google DeepMind. His former focus was in combinatorics and graph theory, though his recent work has shifted towards finding ways to integrate AI with mathematics research to aid mathematical intuition and advance mathematical research."
 
 jameszou:
     name: "James Zou"
