@@ -40,9 +40,16 @@ awagner:
     img: "awagner.jpg"
     bio: "Adam Wagner is an assistant professor of mathematics at WPI and a mathematical consultant for Google DeepMind. His former focus was in combinatorics and graph theory, though his recent work has shifted towards finding ways to integrate AI with mathematics research to aid mathematical intuition and advance mathematical research."
 
-dzhou:
-    name: "Denny Zhou"
-    url: "https://dennyzhou.github.io/"
-    affiliation: "Google DeepMind"
-    img: "dzhou.jpg"
-    bio: "Denny is the founder and lead of the Reasoning Team in Google Brain, aiming to revolutionize machine learning by introducing reasoning to address challenges such as learning from few examples or instructions only, enhancing interpretability, and handling out-of-distribution/domain generalization."
+jameszou:
+    name: "James Zou"
+    url: "https://users.wpi.edu/~zadam/index.html"
+    affiliation: "WPI and Google DeepMind"
+    img: "jzou.png"
+    bio: "James Zou is an assistant professor of Biomedical Data Science and, by courtesy, of Computer Science and Electrical Engineering at Stanford University. He works on making AI more reliable, human-compatible and statistically rigorous, and is especially interested in applications in human disease and health. His research is supported by two Chan-Zuckerberg Biohub Investigator Awards, the Sloan Fellowship, the NSF CAREER Award, a Top Ten Clinical Achievement Award and faculty awards from Google, Adobe and Amazon."
+
+# dzhou:
+#     name: "Denny Zhou"
+#     url: "https://dennyzhou.github.io/"
+#     affiliation: "Google DeepMind"
+#     img: "dzhou.jpg"
+#     bio: "Denny is the founder and lead of the Reasoning Team in Google Brain, aiming to revolutionize machine learning by introducing reasoning to address challenges such as learning from few examples or instructions only, enhancing interpretability, and handling out-of-distribution/domain generalization."
