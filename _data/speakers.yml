@@ -45,11 +45,4 @@ jameszou:
     url: "https://www.james-zou.com/"
     affiliation: "Stanford University"
     img: "jzou.png"
-    bio: "James Zou is an assistant professor of Biomedical Data Science and, by courtesy, of Computer Science and Electrical Engineering at Stanford University. He works on making AI more reliable, human-compatible and statistically rigorous, and is especially interested in applications in human disease and health. His research is supported by two Chan-Zuckerberg Biohub Investigator Awards, the Sloan Fellowship, the NSF CAREER Award, a Top Ten Clinical Achievement Award and faculty awards from Google, Adobe and Amazon."
-
-# dzhou:
-#     name: "Denny Zhou"
-#     url: "https://dennyzhou.github.io/"
-#     affiliation: "Google DeepMind"
-#     img: "dzhou.jpg"
-#     bio: "Denny is the founder and lead of the Reasoning Team in Google Brain, aiming to revolutionize machine learning by introducing reasoning to address challenges such as learning from few examples or instructions only, enhancing interpretability, and handling out-of-distribution/domain generalization."
+    bio: "James Zou is an associate professor of Biomedical Data Science and, by courtesy, of Computer Science and Electrical Engineering at Stanford University. He works on making AI more reliable, human-compatible and statistically rigorous, and is especially interested in applications in human disease and health. His recent work includes developing versatile frameworks for designing and optimizing AI agents in complex reasoning and scientific discovery. His research is supported by the Sloan Fellowship, the NSF CAREER Award, and Google, Amazon and Adobe AI awards."
