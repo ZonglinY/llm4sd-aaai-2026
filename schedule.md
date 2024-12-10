@@ -68,11 +68,11 @@ use-site-title: true
         <td style="width: 180px;">3:30pm - 4:00pm</td>
         <td>Contributed Talks:<br><br>
           1. <a href="https://openreview.net/pdf?id=HmB9uZTzaD">VerMCTS: Synthesizing Multi-Step Programs using a Verifier, a Large Language Model, and Tree Search</a><br>
-          David Brandfonbrener<br><br>
+          David Brandfonbrener, Harvard University<br><br>
           2. <a href="https://openreview.net/pdf?id=j7DZWSc8qu">Inference Scaling Laws: An Empirical Analysis of Compute-Optimal Inference for LLM Problem-Solving</a><br>
-          Sean Welleck and Zhiqing Sun<br><br>
+          Sean Welleck and Zhiqing Sun, CMU<br><br>
           3. <a href="https://openreview.net/pdf?id=tIlDF5B6T4">Learning Mathematical Rules with Large Language Models</a><br>
-          Nelson Vadori
+          Nelson Vadori, JPMorganChase AI Research
         </td>
       </tr>
       <tr>
