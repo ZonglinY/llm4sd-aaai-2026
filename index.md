@@ -5,7 +5,7 @@ use-site-title: true
 ---
 
 <div class="venue" style="font-size: 24px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
-  <strong>Philadelphia, 26 February 2025, 2–6 PM EST, Room 115</strong>
+  <strong>Philadelphia, 26 February 2025, 2–6 PM EST, Room 116</strong>
 </div>
 
 <div class="venue" style="font-size: 20px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
@@ -60,7 +60,7 @@ use-site-title: true
 <hr> -->
 
 
-# About this tutorial
+# Overview
 
 This tutorial provides a comprehensive exploration of Symbolic Regression, an emerging area of AI focused on discovering interpretable mathematical expressions from data. As AI systems become increasingly integrated into critical domains, the ability to uncover transparent, mathematical relationships is essential for advancing scientific understanding and developing trustworthy AI systems. 
 
@@ -125,7 +125,7 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 <hr>
 
 
-# Reading List
+# Reading
 
 **Introduction, Motivation, Challenges**:
 - [Interpretable scientific discovery with symbolic regression: a review](https://link.springer.com/article/10.1007/s10462-023-10622-0)
