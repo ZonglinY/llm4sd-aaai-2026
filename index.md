@@ -12,13 +12,6 @@ use-site-title: true
   <a target="_blank" href="https://aaai.org/conference/aaai/aaai-25/tutorial-and-lab-list/#TH26">(AAAI 2025 website)</a>
 </div>
 
-<nav>
-  <a href="#organizers">Organizers</a> |
-  <a href="#overview">Overview</a> |
-  <a href="#schedule">Schedule</a> |
-  <a href="#reading-list">Reading</a> |
-</nav>
-
 
 <div class="sharethis-inline-share-buttons"></div>
 <meta name="thumbnail" content="./img/aaai-logo.png" />
