@@ -19,34 +19,27 @@ use-site-title: true
 <div class="container" style="margin-bottom: 10px;"></div>
 
 
-<div class="container" style="margin-top: 25px; margin-bottom: 40px;">
-  <div class="row justify-content-center align-items-start">
+<div class="container" style="margin-top: 25px;margin-bottom: 40px;">
+  <!-- <br> 
+  <div class="row"> -->
+  <div class="row">
     {% for p in site.data.organizers %}
     {% if forloop.index<=4 %}
     {% capture id %}{{ p[0] }}{% endcapture %}
-    <div class="col-md-3 col-sm-6 text-center mb-5">
-      <div style="max-width: 250px; margin: 0 auto;">
-        {% include profile.html p=p %}
-      </div>
-    </div>
+    {% include profile.html p=p %}
     {% endif %}
     {% endfor %}
   </div>
-  <div class="row justify-content-center align-items-start">
+  <div class="row">
     {% for p in site.data.organizers %}
     {% capture id %}{{ p[0] }}{% endcapture %}
     {% if forloop.index>4 and forloop.index<=8%}
-    <div class="col-md-3 col-sm-6 text-center mb-5">
-      <div style="max-width: 250px; margin: 0 auto;">
-        {% include profile.html p=p %}
-      </div>
-    </div>
+    {% include profile.html p=p %}
     {% endif %}
     {% endfor %}
   </div>
 </div>
 <hr>
-
 
 
 <!-- # Program Committee
