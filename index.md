@@ -1,89 +1,32 @@
 ---
 layout: page
-title: MATH-AI
-subtitle: "The 4th Workshop on Mathematical Reasoning and AI"
+title: "Symbolic Regression: Towards Interpretability and Automated Scientific Discovery"
 use-site-title: true
 ---
-<div class="venue" style="font-size: 27px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
-  (West Meeting Room 118-120, Vancouver, December 14, 2024, <a href="https://neurips.cc/virtual/2024/workshop/84719" target="_blank">Website</a>)
+
+<div class="venue" style="font-size: 24px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
+  <strong>Philadelphia, 26 February 2025, 2–6 PM EST, Room 115</strong>
 </div>
+
+<div class="venue" style="font-size: 20px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
+  <a target="_blank" href="https://aaai.org/conference/aaai/aaai-25/tutorial-and-lab-list/#TH26">(AAAI 2025 website)</a>
+</div>
+
+<nav>
+  <a href="#organizers">Organizers</a> |
+  <a href="#overview">Overview</a> |
+  <a href="#schedule">Schedule</a> |
+  <a href="#reading-list">Reading</a> |
 
 
 
 <div class="sharethis-inline-share-buttons"></div>
-<meta name="thumbnail" content="./img/neurips-logo-new.jpg" />
-
-# Previous MATH-AI Workshops
-
-<div class="container" style="margin-bottom: 10px;"></div>
-- [AI for Math Workshop @ ICML 2024](https://sites.google.com/view/ai4mathworkshopicml2024)
-- 3rd MATH-AI Workshop at NeurIPS'23: [The 3rd Workshop on Mathematical Reasoning and AI](https://mathai2023.github.io/)
-- 2nd MATH-AI Workshop at NeurIPS'22: [Toward Human-Level Mathematical Reasoning](https://mathai2022.github.io/)
-- 1st MATH-AI Workshop at ICLR'21: [The Role of Mathematical Reasoning in General Artificial Intelligence](https://mathai-iclr.github.io/)
-- MATHAI4ED Workshop at NeurIPS'21: [Math AI for Education: Bridging the Gap Between Research and Smart Education](https://mathai4ed.github.io/)
+<meta name="thumbnail" content="./img/aaai-logo.png" />
 
 <div class="container" style="margin-bottom: 10px;"></div>
 
-# Reviewer Nomination
-
-If you'd like to become a reviewer for the workshop, or recommend someone, [please use this form](https://forms.gle/BssMrXeGgfMfLLFH9).
-
-# Overview
-
-Mathematical reasoning is a fundamental aspect of human cognition that has been studied by scholars ranging from philosophers to cognitive scientists and neuroscientists. Mathematical reasoning involves analyzing complex information, identifying patterns and relationships, and drawing logical conclusions from evidence. It is central to many applications in science, engineering, finance, and everyday contexts.
-
-Recent advancements in large language models (LLMs) have unlocked new opportunities at the intersection of artificial intelligence and mathematical reasoning, ranging from new methods that solve complex problems or prove theorems, to new forms of human-machine collaboration in mathematics and beyond. 
-
-Our proposed workshop is centered on the intersection of deep learning and mathematical reasoning, with an emphasis on, but not limited to, large language models. 
-Our guiding theme is:
-
-*“To what extent can machine learning models comprehend mathematics, and what applications could arise from this capability?”*
-
-To address this question, we aim to bring together a diverse group of scholars from different backgrounds, institutions, and disciplines into our workshop. Our objective is to foster a lively and constructive dialogue on areas related, but not limited, to the following:
-- **Humans vs. machines**: A comparative study of human-level mathematical reasoning and current AI techniques. How do they differ, complement one another, or intersect?
-- **Measuring mathematical reasoning**: How do we design benchmarks which accurately evaluate mathematical reasoning abilities, especially in an era of large language models?
-- **New capabilities**: How do we move beyond our current techniques?
-- **Education**: What role can deep learning models play in mathematics education, especially in contexts with limited educational resources?
-- **Applications**: What applications could AI systems enable in the near- and long-term? Example domains include software verification, sciences, engineering, finance, education, and mathematics itself.
-
-
-<hr>
-
-# Speakers & Panelists
-<div class="container" style="margin-top: 20px;margin-bottom: 0px;">
-  <div class="row">
-    {% for p in site.data.speakers %}
-    {% if forloop.index<=5 %}
-    {% capture id %}{{ p[0] }}{% endcapture %}
-    {% include profile.html p=p %}
-    {% endif %}
-    {% endfor %}
-  </div>
-  <div class="row">
-    {% for p in site.data.speakers %}
-    {% capture id %}{{ p[0] }}{% endcapture %}
-    {% if forloop.index>5 and forloop.index<=10%}
-    {% include profile.html p=p %}
-    {% endif %}
-    {% endfor %}
-  </div>
-  <div class="row">
-    {% for p in site.data.speakers %}
-    {% capture id %}{{ p[0] }}{% endcapture %}
-    {% if forloop.index>10%}
-    {% include profile.html p=p %}
-    {% endif %}
-    {% endfor %}
-  </div>
-<a href="speakers">More Info</a>
-</div>
-
-<hr>
 
 # Organizers
-<!-- # Organizers -->
-
-<!-- prettier-ignore -->
 <div class="container" style="margin-top: 25px;margin-bottom: 40px;">
   <!-- <br> 
   <div class="row" style="margin: -30px;"> -->
@@ -116,20 +59,104 @@ To address this question, we aim to bring together a diverse group of scholars f
 </div>
 <hr> -->
 
-# Related Venues
 
-<div class="container" style="margin-bottom: 10px;"></div>
-- [ICML'24 Workshop on AI4MATH - AI for Math Workshop @ ICML 2024](https://sites.google.com/view/ai4mathworkshopicml2024)
-- [NeurIPS'23 Workshop on MATH-AI - The 3rd Workshop on Mathematical Reasoning and AI](https://mathai2023.github.io/)
-- [NeurIPS'22 Workshop on MATH-AI - Toward Human-Level Mathematical Reasoning](https://mathai2022.github.io/)
-- [NeurIPS'21 workshop on MATHAI4ED - Math AI for Education: Bridging the Gap Between Research and Smart Education](https://mathai4ed.github.io/)
-- [ICLR'21 workshop on MATH-AI - The Role of Mathematical Reasoning in General Artificial Intelligence](https://mathai-iclr.github.io/)
-- [NeurIPS'20 Workshop on KR2ML - Knowledge Representation & Reasoning Meets Machine Learning](https://kr2ml.github.io/2020)
-- [NeurIPS'20 workshop on Advances and Opportunities: Machine Learning for Education](https://www.ml4ed.org/)
-- [ICML'20 workshop on Bridge  Between Perception and Reasoning: Graph Neural Networks & Beyond](https://logicalreasoninggnn.github.io)
+# About this tutorial
 
-<div class="container" style="margin-bottom: 10px;"></div>
+This tutorial provides a comprehensive exploration of Symbolic Regression, an emerging area of AI focused on discovering interpretable mathematical expressions from data. As AI systems become increasingly integrated into critical domains, the ability to uncover transparent, mathematical relationships is essential for advancing scientific understanding and developing trustworthy AI systems. 
+
+Recent advances in AI, particularly in deep learning and LLMs, have opened new paradigms in symbolic regression, enabling more sophisticated approaches to equation discovery and interpretation. These developments raise fundamental questions about how we can harness AI techniques to advance scientific understanding while maintaining interpretability.
+
+Our tutorial is guided by the central question:
+*"How can we leverage AI to discover meaningful mathematical expressions that advance scientific understanding while ensuring interpretability and trustworthiness?"*
+We will explore this question through a comprehensive journey that covers:
+
+- **Foundations and Evolution**: How has symbolic regression evolved from traditional search-based methods to modern AI-driven approaches? What are the key principles and challenges in discovering interpretable mathematical expressions?
+- **Modern Approaches**: How do different paradigms - from evolutionary algorithms to transformer models and LLMs - contribute to equation discovery? How can we effectively combine these approaches?
+- **Evaluation and Benchmarking**: What constitutes meaningful evaluation in symbolic regression? How do we design benchmarks that truly capture the ability to discover interpretable mathematical relationships?
+- **Impact**: How can symbolic regression advance interpretable modeling and scientific discovery across different domains? What are the practical implications?
+
+The tutorial is designed for researchers and practitioners in machine learning, AI, and scientific domains who seek to understand and contribute to the advancement of interpretable modeling. While familiarity with basic machine learning concepts is helpful, no prior experience with symbolic regression is required.
+Through this tutorial, attendees will gain both theoretical understanding and practical insights into symbolic regression, positioning them to contribute to this evolving field and its applications across science and industry.
 
 <hr>
 
-Contact: <mathai.neurips2024@gmail.com>.
+
+# Schedule
+
+<div class="container" style="margin-top: 15px; text-align: center;">
+  <table style="width: 100%; max-width: 1050px; margin: auto; border-collapse: collapse; font-size: 17px; line-height: 1.5;">
+    <tr style="font-weight: bold;">
+      <th style="padding: 10px; text-align: left; width: 12%;">Time</th>
+      <th style="padding: 10px; text-align: left; width: 58%;">Session</th>
+      <th style="padding: 10px; text-align: left; width: 30%;">Presenters</th>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">14:00 - 14:15</td>
+      <td style="padding: 10px;">Introduction and Motivation</td>
+      <td style="padding: 10px;">Chandan Reddy</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">14:15 - 15:15</td>
+      <td style="padding: 10px;">Symbolic Regression Foundation and Evolution </td>
+      <td style="padding: 10px;">Sanjay Chawla</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">15:15 - 16:15</td>
+      <td style="padding: 10px;">Modern AI-guided Equation Discovery (Evolutionary Search, Reinforcement Learning, Deep Learning, Transformers, and LLMs) </td>
+      <td style="padding: 10px;">Parshin Shojaee</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">16:15 - 16:45</td>
+      <td colspan="2" style="padding: 10px; font-style: italic; text-align: center;">Coffee Break</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">16:45 - 17:45</td>
+      <td style="padding: 10px;">Evaluation and Benchmarking + Applications and Use Cases</td>
+      <td style="padding: 10px;">Parshin Shojaee</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">17:45 - 18:00</td>
+      <td style="padding: 10px;">Conclusion</td>
+      <td style="padding: 10px;">Chandan Reddy</td>
+    </tr>
+  </table>
+</div>
+
+<hr>
+
+
+# Reading List
+
+**Introduction, Motivation, Challenges**:
+- [Interpretable scientific discovery with symbolic regression: a review](https://link.springer.com/article/10.1007/s10462-023-10622-0)
+- [Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl](https://arxiv.org/abs/2305.01582)
+- [Symbolic Regression is NP-hard (TMLR'22)](https://openreview.net/forum?id=LTiaPxqe2e)
+- 
+**Methods**:
+- [AI Feynman: A physics-inspired method for symbolic regression (Science Advances)](https://www.science.org/doi/10.1126/sciadv.aay2631) 
+- [Deep symbolic regression: Recovering mathematical expressions from data via risk-seeking policy gradients (ICLR'21)](https://openreview.net/forum?id=m5Qsh0kBQG)
+- [Neural Symbolic Regression that scales (ICML'21)](https://proceedings.mlr.press/v139/biggio21a.html)
+- [End-to-end Symbolic Regression with Transformers (NeurIPS'22)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/42eb37cdbefd7abae0835f4b67548c39-Abstract-Conference.html)
+- [A Unified Framework for Deep Symbolic Regression (NeurIPS'22)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/dbca58f35bddc6e4003b2dd80e42f838-Abstract-Conference.html)
+- [Transformer-based Planning for Symbolic Regression (NeurIPS'23)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8ffb4e3118280a66b192b6f06e0e2596-Abstract-Conference.html)
+- [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training (ICLR'24)](https://openreview.net/forum?id=KZSEgJGPxu)
+- [In-Context Symbolic Regression: Leveraging Large Language Models for Function Discovery (ACL'24)](https://aclanthology.org/2024.acl-srw.49/)
+- [LLM-SR: Scientific Equation Discovery via Programming with Large Language Models (ICLR'25)](https://openreview.net/forum?id=m2nmp8P5in)
+
+
+**Benchmarks**:
+- [Contemporary Symbolic Regression Methods and their Relative Performance (NeurIPS'21)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html)
+- [Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery (DMLR'24)](https://openreview.net/forum?id=i2e2wqt0nAI)
+- [SRBench++: Principled Benchmarking of Symbolic Regression With Domain-Expert Interpretation (IEEE TEC '24)](http://ieeexplore.ieee.org/document/10586218)
+
+
+**Applications and Use Cases**:
+- [Material Science](https://www.cambridge.org/core/journals/mrs-communications/article/symbolic-regression-in-materials-science/A5836F4AF5E9395A9B27541C5042A7F3)
+- [Wind Speed Forecasting](https://arxiv.org/pdf/2102.10570?utm_source=chatgpt.com)
+- [Behavioral Science](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2023.1039438/full?utm_source=chatgpt.com)
+- [Clinical Models](https://www.nature.com/articles/s41746-023-00833-8)
+- [Economics](https://www.tandfonline.com/doi/abs/10.1080/13504851.2016.1218419)
+
+
+
+Contact: <ckreddy@vt.edu>.
