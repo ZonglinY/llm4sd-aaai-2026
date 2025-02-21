@@ -1,40 +1,24 @@
-agu:
-  name: "Alex Gu"
-  url: "https://minimario.github.io/"
-  affiliation: "MIT"
-  img: "agu.jpg"
-gpoesia:
-  name: "Gabriel Poesia"
-  url: "https://gpoesia.com/"
-  affiliation: "Stanford"
-  img: "gpoesia.jpg"
-czhang:
-  name: "Cedegao Zhang"
-  url: "https://cedzhang.com/"
-  affiliation: "MIT"
-  img: "czhang.jpg"
-hzhou:
-  name: "Hattie Zhou"
-  url: "https://hattiezhou.com/"
-  affiliation: "Anthropic"
-  img: "hzhou.png"
-plu:
-  name: "Pan Lu"
-  url: "https://lupantech.github.io/"
-  affiliation: "Stanford"
-  img: "panlu.jpg"
-smishra:
-  name: "Swaroop Mishra"
-  url: "https://swarooprm.github.io/"
-  affiliation: "Google DeepMind"
-  img: "smishra.png"
-kchang:
-  name: "Kai-Wei Chang"
-  url: "https://web.cs.ucla.edu/~kwchang/"
-  affiliation: "UCLA, Alexa AI"
-  img: "kchang.png"
-asolar:
-  name: "Armando Solar-Lezama"
-  url: "https://people.csail.mit.edu/asolar/"
-  affiliation: "MIT"
-  img: "asolar.png"
+chandan:
+  name: "Chandan Reddy"
+  url: "https://creddy.net/"
+  title: "Professor"
+  affiliation: "Virginia Tech"
+  img: "chandan-photo.jpg"
+sanjay:
+  name: "Sanjay Chawla"
+  url: "https://www.hbku.edu.qa/en/staff/sanjay-chawla"
+  title: "Professor"
+  affiliation: "Qatar Center for Artificial Intelligence"
+  img: "sanjay-photo.png"
+parshin:
+  name: "Parshin Shojaee"
+  url: "https://parshinsh.github.io/"
+  title: "PhD Student"
+  affiliation: "Virginia Tech"
+  img: "parshin-photo.jpg"
+nour:
+  name: "Nour Makke"
+  url: "https://www.cs.ubc.ca/~cchris13/"
+  title: "Postdoctoral Research Fellow"
+  affiliation: "Qatar Center for Artificial Intelligence"
+  img: "nour-photo.png"
