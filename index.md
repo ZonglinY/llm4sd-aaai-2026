@@ -19,7 +19,6 @@ use-site-title: true
 <div class="container" style="margin-bottom: 10px;"></div>
 
 
-# Organizers
 <div class="container" style="margin-top: 25px;margin-bottom: 40px;">
   <!-- <br> 
   <div class="row" style="margin: -30px;"> -->
@@ -53,7 +52,7 @@ use-site-title: true
 <hr> -->
 
 
-# Overview
+# About this Tutorial
 
 This tutorial provides a comprehensive exploration of Symbolic Regression, an emerging area of AI focused on discovering interpretable mathematical expressions from data. As AI systems become increasingly integrated into critical domains, the ability to uncover transparent, mathematical relationships is essential for advancing scientific understanding and developing trustworthy AI systems. 
 
@@ -118,7 +117,7 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 <hr>
 
 
-# Reading
+# Reading List
 
 **Introduction, Motivation, Challenges**:
 - [Interpretable scientific discovery with symbolic regression: a review](https://link.springer.com/article/10.1007/s10462-023-10622-0)
