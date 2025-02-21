@@ -1,4 +1,4 @@
-# mathai2024.github.io
+# symbolicregression2025.github.io
 
 
 ```
