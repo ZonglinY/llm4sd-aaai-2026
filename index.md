@@ -17,7 +17,7 @@ use-site-title: true
   <a href="#overview">Overview</a> |
   <a href="#schedule">Schedule</a> |
   <a href="#reading-list">Reading</a> |
-
+</nav>
 
 
 <div class="sharethis-inline-share-buttons"></div>
