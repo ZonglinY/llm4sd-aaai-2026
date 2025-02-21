@@ -21,7 +21,7 @@ use-site-title: true
 
 <div class="container" style="margin-top: 25px;margin-bottom: 40px;">
   <!-- <br> 
-  <div class="row" style="margin: -30px;"> -->
+  <div class="row"> -->
   <div class="row">
     {% for p in site.data.organizers %}
     {% if forloop.index<=4 %}
@@ -123,7 +123,7 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 - [Interpretable scientific discovery with symbolic regression: a review](https://link.springer.com/article/10.1007/s10462-023-10622-0)
 - [Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl](https://arxiv.org/abs/2305.01582)
 - [Symbolic Regression is NP-hard (TMLR'22)](https://openreview.net/forum?id=LTiaPxqe2e)
-- 
+  
 **Methods**:
 - [AI Feynman: A physics-inspired method for symbolic regression (Science Advances)](https://www.science.org/doi/10.1126/sciadv.aay2631) 
 - [Deep symbolic regression: Recovering mathematical expressions from data via risk-seeking policy gradients (ICLR'21)](https://openreview.net/forum?id=m5Qsh0kBQG)
@@ -135,12 +135,9 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 - [In-Context Symbolic Regression: Leveraging Large Language Models for Function Discovery (ACL'24)](https://aclanthology.org/2024.acl-srw.49/)
 - [LLM-SR: Scientific Equation Discovery via Programming with Large Language Models (ICLR'25)](https://openreview.net/forum?id=m2nmp8P5in)
 
-
 **Benchmarks**:
 - [Contemporary Symbolic Regression Methods and their Relative Performance (NeurIPS'21)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html)
 - [Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery (DMLR'24)](https://openreview.net/forum?id=i2e2wqt0nAI)
-- [SRBench++: Principled Benchmarking of Symbolic Regression With Domain-Expert Interpretation (IEEE TEC '24)](http://ieeexplore.ieee.org/document/10586218)
-
 
 **Applications and Use Cases**:
 - [Material Science](https://www.cambridge.org/core/journals/mrs-communications/article/symbolic-regression-in-materials-science/A5836F4AF5E9395A9B27541C5042A7F3)
