@@ -19,22 +19,24 @@ use-site-title: true
 <div class="container" style="margin-bottom: 10px;"></div>
 
 
-<div class="container" style="margin-top: 25px;margin-bottom: 40px;">
-  <!-- <br> 
-  <div class="row"> -->
-  <div class="row">
+<div class="container" style="margin-top: 25px; margin-bottom: 40px;">
+  <div class="row justify-content-center">
     {% for p in site.data.organizers %}
     {% if forloop.index<=4 %}
     {% capture id %}{{ p[0] }}{% endcapture %}
-    {% include profile.html p=p %}
+    <div class="col-md-3 col-sm-6 text-center mb-4">
+      {% include profile.html p=p %}
+    </div>
     {% endif %}
     {% endfor %}
   </div>
-  <div class="row">
+  <div class="row justify-content-center">
     {% for p in site.data.organizers %}
     {% capture id %}{{ p[0] }}{% endcapture %}
     {% if forloop.index>4 and forloop.index<=8%}
-    {% include profile.html p=p %}
+    <div class="col-md-3 col-sm-6 text-center mb-4">
+      {% include profile.html p=p %}
+    </div>
     {% endif %}
     {% endfor %}
   </div>
