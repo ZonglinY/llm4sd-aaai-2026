@@ -9,8 +9,8 @@ use-site-title: true
 </div>
 
 <div class="venue" style="font-size: 23px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
-  <a target="_blank" href="https://drive.google.com/drive/folders/1FIUAsEoTWQ6ntrUaEaO95rZMvMUsJNrU?usp=sharing">[Slides] 
- href="https://aaai.org/conference/aaai/aaai-25/tutorial-and-lab-list/#TH26">[AAAI 2025 website]</a>
+  <a target="_blank" href="https://drive.google.com/drive/folders/1FIUAsEoTWQ6ntrUaEaO95rZMvMUsJNrU?usp=sharing">[Slides]</a>
+ <a target="_blank" href="https://aaai.org/conference/aaai/aaai-25/tutorial-and-lab-list/#TH26">[AAAI 2025 website]</a>
 </div>
 
 
