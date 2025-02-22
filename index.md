@@ -4,14 +4,15 @@ title: "Symbolic Regression: Towards Interpretability and Automated Scientific D
 use-site-title: true
 ---
 
+
 <div class="venue" style="font-size: 24px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
-  <strong>Philadelphia, 26 February 2025, 2–6 PM EST, Room 116</strong>
+  <strong>Philadelphia, 26 February 2025, 2–6 PM EST, Room 116</strong><br>
+  <span style="font-size: 23px;">
+    <a target="_blank" href="https://drive.google.com/drive/folders/1FIUAsEoTWQ6ntrUaEaO95rZMvMUsJNrU?usp=sharing">[Slides]</a>
+    <a target="_blank" href="https://aaai.org/conference/aaai/aaai-25/tutorial-and-lab-list/#TH26">[AAAI 2025 website]</a>
+  </span>
 </div>
 
-<div class="venue" style="font-size: 23px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
-  <a target="_blank" href="https://drive.google.com/drive/folders/1FIUAsEoTWQ6ntrUaEaO95rZMvMUsJNrU?usp=sharing">[Slides]</a>
- <a target="_blank" href="https://aaai.org/conference/aaai/aaai-25/tutorial-and-lab-list/#TH26">[AAAI 2025 website]</a>
-</div>
 
 
 <div class="sharethis-inline-share-buttons"></div>
