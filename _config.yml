@@ -29,10 +29,11 @@ description: Symbolic-Regression
 ###############################################
 
 navbar-links:
-  About Totorial: "about"
-  Schedule: "schedule"
-  Reading List: "reading"
-  Slides: "slides"
+  Slides: 
+  - Download: "https://drive.google.com/drive/folders/1FIUAsEoTWQ6ntrUaEaO95rZMvMUsJNrU?usp=sharing"
+  # About Totorial: "about"
+  # Schedule: "schedule"
+  # Reading List: "reading"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
