@@ -152,4 +152,5 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 
 
 
-Contact: <ckreddy@vt.edu>.
+
+Please email <ckreddy@vt.edu> if you have any questions.
