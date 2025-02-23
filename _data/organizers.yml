@@ -1,15 +1,3 @@
-chandan:
-  name: "Chandan Reddy"
-  url: "https://creddy.net/"
-  title: "Professor"
-  affiliation: "Virginia Tech"
-  img: "chandan-photo.jpg"
-sanjay:
-  name: "Sanjay Chawla"
-  url: "https://www.hbku.edu.qa/en/staff/sanjay-chawla"
-  title: "Professor"
-  affiliation: "Qatar Center for Artificial Intelligence"
-  img: "sanjay-photo.png"
 parshin:
   name: "Parshin Shojaee"
   url: "https://parshinsh.github.io/"
@@ -22,3 +10,15 @@ nour:
   title: "Postdoctoral Research Fellow"
   affiliation: "Qatar Center for Artificial Intelligence"
   img: "nour-photo.png"
+chandan:
+  name: "Chandan Reddy"
+  url: "https://creddy.net/"
+  title: "Professor"
+  affiliation: "Virginia Tech"
+  img: "chandan-photo.jpg"
+sanjay:
+  name: "Sanjay Chawla"
+  url: "https://www.hbku.edu.qa/en/staff/sanjay-chawla"
+  title: "Professor"
+  affiliation: "Qatar Center for Artificial Intelligence"
+  img: "sanjay-photo.png"
