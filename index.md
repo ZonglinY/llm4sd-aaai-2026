@@ -9,6 +9,7 @@ use-site-title: true
   <strong>Philadelphia, 26 February 2025, 2–6 PM EST, Room 116</strong><br>
   <span style="font-size: 23px; font-weight: 300;">
     <a target="_blank" href="https://drive.google.com/drive/folders/1FIUAsEoTWQ6ntrUaEaO95rZMvMUsJNrU?usp=sharing">[Slides]</a>
+    <a target="_blank" href="https://underline.io/events/487/sessions?eventSessionId=19592&searchGroup=lecture&eventId=487">[Zoom]</a>
     <a target="_blank" href="https://aaai.org/conference/aaai/aaai-25/tutorial-and-lab-list/#TH26">[AAAI 2025 website]</a>
   </span>
 </div>
