@@ -76,12 +76,16 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 
 <hr>
 
+
+# Taxonomy
+
 ![Taxonomy-viz](./img/taxonomy.jpg)
 
 
 # Reading List
 
 ### Introduction
+
 - [Interpretable scientific discovery with symbolic regression: a review](https://link.springer.com/article/10.1007/s10462-023-10622-0)
 - [Symbolic Regression is NP-hard](https://openreview.net/forum?id=LTiaPxqe2e) 
 
@@ -124,7 +128,7 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 - [Symbolic Regression with a Learned Concept Library (NeurIPS'24)](https://aclanthology.org/2024.acl-srw.49/) [[Github](https://github.com/trishullab/LibraryAugmentedSymbolicRegression.jl)]
 
 
-**Benchmarks**
+### Benchmarks
 - [Contemporary Symbolic Regression Methods and their Relative Performance (NeurIPS'21)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html)
 - [Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery (DMLR'24)](https://openreview.net/forum?id=i2e2wqt0nAI)
 
