@@ -76,81 +76,54 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 
 <hr>
 
-
-# Schedule
-
-<div class="container" style="margin-top: 15px; text-align: center;">
-  <table style="width: 100%; max-width: 1050px; margin: auto; border-collapse: collapse; font-size: 17px; line-height: 1.5;">
-    <tr style="font-weight: bold;">
-      <th style="padding: 10px; text-align: left; width: 12%;">Time</th>
-      <th style="padding: 10px; text-align: left; width: 58%;">Session</th>
-      <th style="padding: 10px; text-align: left; width: 30%;">Presenters</th>
-    </tr>
-    <tr>
-      <td style="padding: 10px;">14:00 - 14:15</td>
-      <td style="padding: 10px;">Introduction and Motivation</td>
-      <td style="padding: 10px;">Chandan Reddy</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px;">14:15 - 15:15</td>
-      <td style="padding: 10px;">Symbolic Regression Foundation and Evolution </td>
-      <td style="padding: 10px;">Sanjay Chawla</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px;">15:15 - 16:15</td>
-      <td style="padding: 10px;">Modern AI-guided Equation Discovery (Evolutionary Search, Reinforcement Learning, Deep Learning, Transformers, and LLMs) </td>
-      <td style="padding: 10px;">Parshin Shojaee</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px;">16:15 - 16:45</td>
-      <td colspan="2" style="padding: 10px; font-style: italic; text-align: center;">Coffee Break</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px;">16:45 - 17:45</td>
-      <td style="padding: 10px;">Evaluation and Benchmarking + Applications and Use Cases</td>
-      <td style="padding: 10px;">Parshin Shojaee</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px;">17:45 - 18:00</td>
-      <td style="padding: 10px;">Conclusion</td>
-      <td style="padding: 10px;">Chandan Reddy</td>
-    </tr>
-  </table>
-</div>
-
-<hr>
+![Taxonomy-viz](./img/taxonomy.jpg)
 
 
 # Reading List
 
-**Introduction, Motivation, Challenges**:
+### Introduction
 - [Interpretable scientific discovery with symbolic regression: a review](https://link.springer.com/article/10.1007/s10462-023-10622-0)
-- [Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl](https://arxiv.org/abs/2305.01582)
-- [Symbolic Regression is NP-hard (TMLR'22)](https://openreview.net/forum?id=LTiaPxqe2e)
-  
-**Methods**:
-- [AI Feynman: A physics-inspired method for symbolic regression (Science Advances)](https://www.science.org/doi/10.1126/sciadv.aay2631) 
-- [Deep symbolic regression: Recovering mathematical expressions from data via risk-seeking policy gradients (ICLR'21)](https://openreview.net/forum?id=m5Qsh0kBQG)
-- [Neural Symbolic Regression that scales (ICML'21)](https://proceedings.mlr.press/v139/biggio21a.html)
-- [End-to-end Symbolic Regression with Transformers (NeurIPS'22)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/42eb37cdbefd7abae0835f4b67548c39-Abstract-Conference.html)
-- [A Unified Framework for Deep Symbolic Regression (NeurIPS'22)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/dbca58f35bddc6e4003b2dd80e42f838-Abstract-Conference.html)
-- [Transformer-based Planning for Symbolic Regression (NeurIPS'23)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8ffb4e3118280a66b192b6f06e0e2596-Abstract-Conference.html)
-- [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training (ICLR'24)](https://openreview.net/forum?id=KZSEgJGPxu)
-- [In-Context Symbolic Regression: Leveraging Large Language Models for Function Discovery (ACL'24)](https://aclanthology.org/2024.acl-srw.49/)
-- [LLM-SR: Scientific Equation Discovery via Programming with Large Language Models (ICLR'25)](https://openreview.net/forum?id=m2nmp8P5in)
+- [Symbolic Regression is NP-hard](https://openreview.net/forum?id=LTiaPxqe2e) 
 
-**Benchmarks**:
+  
+### Methods
+
+**Search Methods**
+
+- [Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl](https://arxiv.org/abs/2305.01582) [[Github](https://github.com/MilesCranmer/PySR)]
+- [Gene-pool Optimal Mixing Evolutionary Algorithm for Genetic Programming (Evolutionary Computation'21)](https://www.science.org/doi/10.1126/sciadv.aay2631) [[Github](https://github.com/marcovirgolin/GP-GOMEA)]
+- [AI Feynman: A physics-inspired method for symbolic regression (Science Advances)](https://www.science.org/doi/10.1126/sciadv.aay2631) [[Github](https://github.com/SJ001/AI-Feynman)]
+- [Deep symbolic regression: Recovering mathematical expressions from data via risk-seeking policy gradients (ICLR'21)](https://openreview.net/forum?id=m5Qsh0kBQG) [[Github](https://github.com/dso-org/deep-symbolic-optimization)]
+- [Symbolic Regression via Neural-Guided Genetic Programming Population Seeding (NeurIPS'21)](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://openreview.net/pdf?id=tjwQaOI9tdy) [[Github](https://github.com/dso-org/deep-symbolic-optimization)]
+- [Symbolic Physics Learner: Discovering governing equations via Monte Carlo tree search (ICLR'23)](https://openreview.net/forum?id=ZTK3SefE8_Z) [[Github](https://github.com/isds-neu/SymbolicPhysicsLearner)]
+
+
+
+**Learning Methods**
+
+- [Neural Symbolic Regression that scales (ICML'21)](https://proceedings.mlr.press/v139/biggio21a.html) [[Github](https://github.com/SymposiumOrganization/NeuralSymbolicRegressionThatScales)]
+- [End-to-end Symbolic Regression with Transformers (NeurIPS'22)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/42eb37cdbefd7abae0835f4b67548c39-Abstract-Conference.html) [[Github](https://github.com/facebookresearch/symbolicregression)]
+- [SymFormer: End-to-end symbolic regression using transformer-based architecture](https://arxiv.org/abs/2205.15764) [[Github](https://github.com/vastlik/symformer)]
+- [SymbolicGPT: A Generative Transformer Model for Symbolic Regression](https://arxiv.org/abs/2106.14131) [[Github](https://github.com/mojivalipour/symbolicgpt)]
+- [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training (ICLR'24)](https://openreview.net/forum?id=KZSEgJGPxu) [[Github](https://github.com/deep-symbolic-mathematics/Multimodal-Math-Pretraining)]
+
+
+**Learning + Search Methods**
+
+- [Transformer-based Planning for Symbolic Regression (NeurIPS'23)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8ffb4e3118280a66b192b6f06e0e2596-Abstract-Conference.html)
+- [A Unified Framework for Deep Symbolic Regression (NeurIPS'22)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/dbca58f35bddc6e4003b2dd80e42f838-Abstract-Conference.html)
+- [Deep Generative Symbolic Regression (ICLR'23)](https://openreview.net/forum?id=o7koEEMA1bR) [[Github](https://github.com/samholt/DeepGenerativeSymbolicRegression)]
+- [Efficient Generator of Mathematical Expressions for Symbolic Regression (Machine Learning'23)](https://link.springer.com/article/10.1007/s10994-023-06400-2) [[Github](https://github.com/smeznar/HVAE)]
+- [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training (ICLR'24)](https://openreview.net/forum?id=KZSEgJGPxu) [[Github](https://github.com/deep-symbolic-mathematics/Multimodal-Symbolic-Regression)]
+
+
+**LLM-guided Search Methods**
+- [LLM-SR: Scientific Equation Discovery via Programming with Large Language Models (ICLR'25)](https://openreview.net/forum?id=m2nmp8P5in) [[Github](https://github.com/deep-symbolic-mathematics/LLM-SR)]
+- [In-Context Symbolic Regression: Leveraging Large Language Models for Function Discovery (ACL'24)](https://aclanthology.org/2024.acl-srw.49/) [[Github](https://github.com/merlerm/In-Context-Symbolic-Regression)]
+- [Symbolic Regression with a Learned Concept Library (NeurIPS'24)](https://aclanthology.org/2024.acl-srw.49/) [[Github](https://github.com/trishullab/LibraryAugmentedSymbolicRegression.jl)]
+
+
+**Benchmarks**
 - [Contemporary Symbolic Regression Methods and their Relative Performance (NeurIPS'21)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html)
 - [Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery (DMLR'24)](https://openreview.net/forum?id=i2e2wqt0nAI)
 
-**Applications and Use Cases**:
-- [Material Science](https://www.cambridge.org/core/journals/mrs-communications/article/symbolic-regression-in-materials-science/A5836F4AF5E9395A9B27541C5042A7F3)
-- [Wind Speed Forecasting](https://arxiv.org/pdf/2102.10570?utm_source=chatgpt.com)
-- [Behavioral Science](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2023.1039438/full?utm_source=chatgpt.com)
-- [Clinical Models](https://www.nature.com/articles/s41746-023-00833-8)
-- [Economics](https://www.tandfonline.com/doi/abs/10.1080/13504851.2016.1218419)
-
-
-
-
-Please email <ckreddy@vt.edu> if you have any questions.
