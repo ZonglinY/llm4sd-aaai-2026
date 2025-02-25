@@ -8,7 +8,7 @@ use-site-title: true
 <div class="venue" style="font-size: 24px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
   <strong>Philadelphia, 26 February 2025, 2–6 PM EST, Room 116</strong><br>
   <span style="font-size: 23px; font-weight: 300;">
-    <a target="_blank" href="https://drive.google.com/drive/folders/1FIUAsEoTWQ6ntrUaEaO95rZMvMUsJNrU?usp=sharing">[Slides]</a>
+    <a target="_blank" href="https://drive.google.com/file/d/1xMh5_p7oQ_OJfNJn49Y--KQnY1lzjHBL/view?usp=sharing">[Slides]</a>
     <a target="_blank" href="https://underline.io/events/487/sessions?eventSessionId=19592&searchGroup=lecture&eventId=487">[Zoom]</a>
     <a target="_blank" href="https://aaai.org/conference/aaai/aaai-25/tutorial-and-lab-list/#TH26">[AAAI 2025 website]</a>
   </span>
