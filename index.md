@@ -3,7 +3,7 @@ layout: page
 use-site-title: false
 ---
 
-<h1 style="font-size: 28px; text-align: center;">Symbolic Regression: Towards Interpretability and Automated Scientific Discovery</h1>
+<h1 style="font-size: 40px; text-align: center;">Symbolic Regression: Towards Interpretability and Automated Scientific Discovery</h1>
 
 
 <div class="venue" style="font-size: 24px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
