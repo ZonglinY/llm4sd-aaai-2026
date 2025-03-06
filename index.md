@@ -1,14 +1,9 @@
 ---
 layout: page
-title: "Symbolic Regression: Towards Interpretability and Automated Scientific Discovery"
-use-site-title: true
+use-site-title: false
 ---
 
-<style>
-  .page-heading, h1.post-title {
-    font-size: 28px !important; /* Adjust this value as needed */
-  }
-</style>
+<h1 style="font-size: 28px; text-align: center;">Symbolic Regression: Towards Interpretability and Automated Scientific Discovery</h1>
 
 
 <div class="venue" style="font-size: 24px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
