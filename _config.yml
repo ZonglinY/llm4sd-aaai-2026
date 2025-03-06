@@ -16,7 +16,7 @@
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Symbolic Regression Tutorial at AAAI'25
+title: Symbolic Regression Tutorial
 
 # Short description of your site
 description: Symbolic-Regression
@@ -59,7 +59,7 @@ footer-link-col: "#404040"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author: Organizers of the Symbolic Regression Tutorial at AAAI 2025
+author: Organizers of the Symbolic Regression Tutorial
 
 
 # Image to show in the navigation bar - works best with a square image
