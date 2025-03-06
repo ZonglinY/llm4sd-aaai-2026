@@ -4,9 +4,14 @@ title: "Symbolic Regression: Towards Interpretability and Automated Scientific D
 use-site-title: true
 ---
 
+<style>
+  .page-heading, h1.post-title {
+    font-size: 28px !important; /* Adjust this value as needed */
+  }
+</style>
+
 
 <div class="venue" style="font-size: 24px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
-  <strong>Philadelphia, 26 February 2025, 2–6 PM EST, Room 116</strong><br>
   <span style="font-size: 23px; font-weight: 300;">
     <a target="_blank" href="https://drive.google.com/file/d/1xMh5_p7oQ_OJfNJn49Y--KQnY1lzjHBL/view?usp=sharing">[Slides]</a>
     <a target="_blank" href="https://underline.io/events/487/sessions?eventSessionId=19592&searchGroup=lecture&eventId=487">[Zoom]</a>
