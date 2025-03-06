@@ -56,6 +56,11 @@ use-site-title: false
 <hr> -->
 
 
+# Taxonomy
+
+![Taxonomy-viz](./img/taxonomy.jpg)
+
+
 # About this Tutorial
 
 This tutorial provides a comprehensive exploration of Symbolic Regression, an emerging area of AI focused on discovering interpretable mathematical expressions from data. As AI systems become increasingly integrated into critical domains, the ability to uncover transparent, mathematical relationships is essential for advancing scientific understanding and developing trustworthy AI systems. 
@@ -75,11 +80,6 @@ The tutorial is designed for researchers and practitioners in machine learning, 
 Through this tutorial, attendees will gain both theoretical understanding and practical insights into symbolic regression, positioning them to contribute to this evolving field and its applications across science and industry.
 
 <hr>
-
-
-# Taxonomy
-
-![Taxonomy-viz](./img/taxonomy.jpg)
 
 
 # Reading List
@@ -129,6 +129,5 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 
 
 ### Benchmarks
-- [Contemporary Symbolic Regression Methods and their Relative Performance (NeurIPS'21)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html)
-- [Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery (DMLR'24)](https://openreview.net/forum?id=i2e2wqt0nAI)
-
+- [Contemporary Symbolic Regression Methods and their Relative Performance (NeurIPS'21)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html) [[Github](https://github.com/cavalab/srbench/)]
+- [Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery (DMLR'24)](https://openreview.net/forum?id=i2e2wqt0nAI) [[Github](https://github.com/omron-sinicx/srsd-benchmark)]
