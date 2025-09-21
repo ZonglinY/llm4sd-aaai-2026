@@ -6,68 +6,64 @@ use-site-title: false
 <h1 style="font-size: 60px; text-align: center;">Frontiers of LLMs for Automated Scientific Discovery: A Tutorial</h1>
 
 <style>
-  /* Center the two rows and allow wrapping */
+  /* Center the rows and allow wrapping */
   .row.justify-content-center {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    text-align: center; /* fallback for BS3 */
   }
 
-  /* Make each column a flex item with a sensible width */
+  /* Make each Bootstrap column a flex item (works for BS3/4/5) */
   .row.justify-content-center > [class*="col-"] {
-    /* Prevent Bootstrap 3 float from affecting layout */
-    float: none !important;
-
-    /* Flex sizing: tweak 260–340px to taste */
-    flex: 0 1 300px;
+    float: none !important;      /* neutralize BS3 float */
+    flex: 0 1 300px;             /* card width (tweak 280–340px if needed) */
     display: flex;
     padding: 0 12px;
     box-sizing: border-box;
-    vertical-align: top;
   }
 
-  /* Make the inner card stack vertically and stay centered */
+  /* Stack content vertically inside each column */
   .row.justify-content-center > [class*="col-"] > * {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;         /* center everything horizontally */
     text-align: center;
-
     width: 100%;
-    max-width: 320px; /* adjust if your card should be wider/narrower */
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 320px;
+    margin: 0 auto;
   }
 
   /* Image always centered and responsive */
   .row.justify-content-center img {
     display: block;
-    margin: 0 auto 8px auto;
+    margin: 0 auto 10px auto;
     max-width: 100%;
     height: auto;
+    border-radius: 9999px;       /* keep your round avatars */
   }
 
-  /* Reserve consistent space for name (1 line) */
+  /* Name must be its own block (prevents “name between photos”) */
+  .row.justify-content-center a,
   .row.justify-content-center h4,
   .row.justify-content-center h5 {
-    margin: 8px 0 4px;
+    display: block;
+    margin: 6px 0 2px 0;
     line-height: 1.3;
-    min-height: 1.3em; /* ~1 line */
   }
 
-  /* Reserve consistent space for affiliation (up to 3 lines) */
-  .row.justify-content-center .affiliation,
+  /* Affiliation as a block; reserve up to 3 lines to keep rows aligned */
   .row.justify-content-center small,
+  .row.justify-content-center .affiliation,
   .row.justify-content-center .text-muted {
     display: block;
     line-height: 1.35;
-    min-height: 4.05em; /* ~3 lines → prevents “spill” into next row */
-    overflow-wrap: anywhere;
+    min-height: 4.05em;          /* ≈ 3 lines; use 2.7em for 2 lines */
     word-break: break-word;
+    overflow-wrap: anywhere;
     margin-bottom: 6px;
   }
 </style>
+
 
 
 
