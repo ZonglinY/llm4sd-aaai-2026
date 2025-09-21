@@ -6,43 +6,66 @@ use-site-title: false
 <h1 style="font-size: 60px; text-align: center;">Frontiers of LLMs for Automated Scientific Discovery: A Tutorial</h1>
 
 <style>
-  /* 全局 profile 容器文本居中 */
-  .profile {
-    text-align: center;
+  /* Center the two rows and allow wrapping */
+  .row.justify-content-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center; /* fallback for BS3 */
   }
 
-  /* 保证头像图片水平居中 + 响应式 */
-  .profile img {
-    display: block;
+  /* Make each column a flex item with a sensible width */
+  .row.justify-content-center > [class*="col-"] {
+    /* Prevent Bootstrap 3 float from affecting layout */
+    float: none !important;
+
+    /* Flex sizing: tweak 260–340px to taste */
+    flex: 0 1 300px;
+    display: flex;
+    padding: 0 12px;
+    box-sizing: border-box;
+    vertical-align: top;
+  }
+
+  /* Make the inner card stack vertically and stay centered */
+  .row.justify-content-center > [class*="col-"] > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+    max-width: 320px; /* adjust if your card should be wider/narrower */
     margin-left: auto;
     margin-right: auto;
+  }
+
+  /* Image always centered and responsive */
+  .row.justify-content-center img {
+    display: block;
+    margin: 0 auto 8px auto;
     max-width: 100%;
     height: auto;
   }
 
-  /* 让整行的内容在中间 */
-  .row.justify-content-center {
-    text-align: center; /* 对 BS3 float 布局有效 */
-    justify-content: center; /* 对 BS4/5 flex 布局有效 */
+  /* Reserve consistent space for name (1 line) */
+  .row.justify-content-center h4,
+  .row.justify-content-center h5 {
+    margin: 8px 0 4px;
+    line-height: 1.3;
+    min-height: 1.3em; /* ~1 line */
   }
 
-  /* 让每一列像文字一样在行内居中显示（兼容 BS3） */
-  .row.justify-content-center > [class*="col-"] {
-    float: none !important;       /* 覆盖 BS3 的 float */
-    display: inline-block;        /* 让列成为 inline-block，可以居中 */
-    vertical-align: top;          /* 多行时顶部对齐 */
-    margin: 0 12px;               /* 列之间的间距 */
-    text-align: center;           /* 列内部居中 */
-  }
-
-  /* 列内的第一个子元素（通常是卡片容器）居中 */
-  .row.justify-content-center > [class*="col-"] > * {
+  /* Reserve consistent space for affiliation (up to 3 lines) */
+  .row.justify-content-center .affiliation,
+  .row.justify-content-center small,
+  .row.justify-content-center .text-muted {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    max-width: 320px;  /* 限制卡片最大宽度，可以调小/调大 */
-    width: 100%;
+    line-height: 1.35;
+    min-height: 4.05em; /* ~3 lines → prevents “spill” into next row */
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    margin-bottom: 6px;
   }
 </style>
 
