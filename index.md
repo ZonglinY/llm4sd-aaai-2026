@@ -6,63 +6,61 @@ use-site-title: false
 <h1 style="font-size: 60px; text-align: center;">Frontiers of LLMs for Automated Scientific Discovery: A Tutorial</h1>
 
 <style>
-  /* Center the rows and allow wrapping */
-  .row.justify-content-center {
+  /* Speakers layout: predictable, centered, wraps cleanly */
+  .speakers {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  /* Make each Bootstrap column a flex item (works for BS3/4/5) */
-  .row.justify-content-center > [class*="col-"] {
-    float: none !important;      /* neutralize BS3 float */
-    flex: 0 1 300px;             /* card width (tweak 280–340px if needed) */
-    display: flex;
-    padding: 0 12px;
-    box-sizing: border-box;
-  }
-
-  /* Stack content vertically inside each column */
-  .row.justify-content-center > [class*="col-"] > * {
-    display: flex;
-    flex-direction: column;
-    align-items: center;         /* center everything horizontally */
+    gap: 24px;               /* space between cards */
     text-align: center;
+  }
+
+  /* Neutralize Bootstrap floats in this section only */
+  .speakers > [class*="col-"] {
+    float: none !important;
+    padding: 0;
+    flex: 0 1 300px;         /* card width; tweak 280–340px if you like */
+  }
+
+  /* Card: vertical stack */
+  .speaker-card {
     width: 100%;
     max-width: 320px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  /* Image always centered and responsive */
-  .row.justify-content-center img {
+  /* Photo */
+  .speaker-photo {
+    width: 260px;            /* tweak to match your assets */
+    height: 260px;
+    object-fit: cover;
+    border-radius: 9999px;   /* round avatar */
     display: block;
-    margin: 0 auto 10px auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 9999px;       /* keep your round avatars */
+    margin-bottom: 10px;
   }
 
-  /* Name must be its own block (prevents “name between photos”) */
-  .row.justify-content-center a,
-  .row.justify-content-center h4,
-  .row.justify-content-center h5 {
+  /* Name */
+  .speaker-name {
     display: block;
-    margin: 6px 0 2px 0;
+    font-weight: 600;
+    margin: 6px 0 2px;
     line-height: 1.3;
   }
 
-  /* Affiliation as a block; reserve up to 3 lines to keep rows aligned */
-  .row.justify-content-center small,
-  .row.justify-content-center .affiliation,
-  .row.justify-content-center .text-muted {
+  /* Affiliation — reserve up to 3 lines so cards align */
+  .speaker-affil {
     display: block;
     line-height: 1.35;
-    min-height: 4.05em;          /* ≈ 3 lines; use 2.7em for 2 lines */
+    min-height: 4.05em;      /* ≈ 3 lines; use 2.7em for 2 lines */
     word-break: break-word;
     overflow-wrap: anywhere;
-    margin-bottom: 6px;
+    color: #555;
   }
 </style>
+
 
 
 
@@ -81,24 +79,21 @@ use-site-title: false
 <div class="container" style="margin-bottom: 10px;"></div>
 
 
-<!--<div class="container" style="margin-top: 25px;margin-bottom: 40px;">-->
-<div class="container text-center" style="margin-top: 25px;margin-bottom: 40px;">
-  <!-- <br> 
-  <div class="row"> -->
-  <div class="row justify-content-center">
+<!-- Speakers -->
+<div class="container text-center" style="margin-top:25px;margin-bottom:40px;">
+  <div class="row speakers">
     {% for p in site.data.organizers %}
-    {% if forloop.index<=4 %}
-    {% capture id %}{{ p[0] }}{% endcapture %}
-    {% include profile.html p=p %}
-    {% endif %}
-    {% endfor %}
-  </div>
-  <div class="row justify-content-center">
-    {% for p in site.data.organizers %}
-    {% capture id %}{{ p[0] }}{% endcapture %}
-    {% if forloop.index>4 and forloop.index<=8%}
-    {% include profile.html p=p %}
-    {% endif %}
+      {% assign person = p[1] %}
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="speaker-card">
+          <img class="speaker-photo"
+               src="{{ site.baseurl }}/img/{{ person.img }}"
+               alt="{{ person.name }}"
+               loading="lazy">
+          <a class="speaker-name" href="{{ person.url }}" target="_blank" rel="noopener">{{ person.name }}</a>
+          <small class="speaker-affil">{{ person.affiliation }}</small>
+        </div>
+      </div>
     {% endfor %}
   </div>
 </div>
