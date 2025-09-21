@@ -34,13 +34,15 @@ use-site-title: false
 
   /* Photo */
   .speaker-photo {
-    width: 260px;            /* tweak to match your assets */
-    height: 260px;
-    object-fit: cover;
-    border-radius: 9999px;   /* round avatar */
+    width: 300px;            /* 280–300 both look good; pick 300 for less crop */
+    height: 300px;
+    object-fit: cover;       /* keep perfect circles, same size */
+    object-position: 50% 20%;/* bias focus slightly toward the top to show hairline */
+    border-radius: 9999px;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
+
 
   /* Name */
   .speaker-name {
