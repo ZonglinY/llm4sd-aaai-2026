@@ -34,14 +34,18 @@ use-site-title: false
 
   /* Photo */
   .speaker-photo {
-    width: 300px;            /* 280–300 both look good; pick 300 for less crop */
+    width: 300px;
     height: 300px;
-    object-fit: cover;       /* keep perfect circles, same size */
-    object-position: 50% 20%;/* bias focus slightly toward the top to show hairline */
-    border-radius: 9999px;
+    object-fit: cover;
+    object-position: 50% 20%;   /* keep face higher in frame */
+    border-radius: 50%;
     display: block;
     margin-bottom: 12px;
+    padding: 12px;              /* <-- add space inside the circle */
+    background-color: #fff;     /* background behind the photo */
+    box-sizing: border-box;     /* so padding doesn’t enlarge the circle */
   }
+
 
 
   /* Name */
