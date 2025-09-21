@@ -70,11 +70,11 @@ use-site-title: false
 
 
 
-<div class="venue" style="font-size: 24px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
+<!--<div class="venue" style="font-size: 24px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
   <span style="font-size: 23px; font-weight: 300;">
     <a target="_blank" href="https://drive.google.com/file/d/1oTRnVPSqrHoJb5xcu3cQ0_Jtflpj4bqW/view?usp=sharing">[Slides]</a>
   </span>
-</div>
+</div>-->
 
 
 
