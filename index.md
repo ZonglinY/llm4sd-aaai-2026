@@ -3,7 +3,7 @@ layout: page
 use-site-title: false
 ---
 
-<h1 style="font-size: 60px; text-align: center;">Symbolic Regression: Towards Interpretability and Automated Scientific Discovery</h1>
+<h1 style="font-size: 60px; text-align: center;">Frontiers of LLMs for Automated Scientific Discovery: A Tutorial</h1>
 
 
 <div class="venue" style="font-size: 24px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
@@ -54,9 +54,9 @@ use-site-title: false
 <hr> -->
 
 
-# Taxonomy
+<!--# Taxonomy
 
-![Taxonomy-viz](./img/taxonomy.jpg)
+![Taxonomy-viz](./img/taxonomy.jpg)-->
 
 
 # About this Tutorial
@@ -84,6 +84,7 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 
 ### Introduction
 
+- [A Survey on Large Language Models for Scientific Research](https://arxiv.org/abs/2501.04306)
 - [Interpretable scientific discovery with symbolic regression: a review](https://link.springer.com/article/10.1007/s10462-023-10622-0)
 - [Symbolic Regression is NP-hard](https://openreview.net/forum?id=LTiaPxqe2e) 
 
@@ -126,7 +127,7 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 - [Symbolic Regression with a Learned Concept Library (NeurIPS'24)](https://aclanthology.org/2024.acl-srw.49/) [[Github](https://github.com/trishullab/LibraryAugmentedSymbolicRegression.jl)]
 
 
-### Benchmarks
+### SR Benchmarks
 - [Contemporary Symbolic Regression Methods and their Relative Performance (NeurIPS'21)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html) [[Github](https://github.com/cavalab/srbench/)]
 - [Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery (DMLR'24)](https://openreview.net/forum?id=i2e2wqt0nAI) [[Github](https://github.com/omron-sinicx/srsd-benchmark)]
 - [LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models (ICML'25)](https://arxiv.org/abs/2504.10415) [[Github](https://github.com/deep-symbolic-mathematics/llm-srbench)] [[Dataset](https://huggingface.co/datasets/nnheui/llm-srbench)]
