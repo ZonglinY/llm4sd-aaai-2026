@@ -36,15 +36,14 @@ use-site-title: false
   .speaker-photo {
     width: 300px;
     height: 300px;
-    object-fit: cover;
-    object-position: 50% 20%;   /* keep face higher in frame */
+    object-fit: contain;     /* show the whole image, no crop */
+    object-position: center; /* center the photo inside the circle */
     border-radius: 50%;
+    background-color: #fff;  /* fills any empty space with white */
     display: block;
     margin-bottom: 12px;
-    padding: 12px;              /* <-- add space inside the circle */
-    background-color: #fff;     /* background behind the photo */
-    box-sizing: border-box;     /* so padding doesn’t enlarge the circle */
   }
+
 
 
 
