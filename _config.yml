@@ -11,7 +11,8 @@
 
 # If you are building a GitHub project page then use these settings:
 url: "https://zongliny.github.io"
-baseurl: "/llm4sd-aaai-2026"
+baseurl: ""
+timezone: "America/Los_Angeles"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
