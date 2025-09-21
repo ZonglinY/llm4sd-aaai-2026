@@ -6,16 +6,43 @@ use-site-title: false
 <h1 style="font-size: 60px; text-align: center;">Frontiers of LLMs for Automated Scientific Discovery: A Tutorial</h1>
 
 <style>
-  /* make sure profile is centered */
+  /* 全局 profile 容器文本居中 */
   .profile {
     text-align: center;
   }
 
-  /* make sure image is centered */
+  /* 保证头像图片水平居中 + 响应式 */
   .profile img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* 让整行的内容在中间 */
+  .row.justify-content-center {
+    text-align: center; /* 对 BS3 float 布局有效 */
+    justify-content: center; /* 对 BS4/5 flex 布局有效 */
+  }
+
+  /* 让每一列像文字一样在行内居中显示（兼容 BS3） */
+  .row.justify-content-center > [class*="col-"] {
+    float: none !important;       /* 覆盖 BS3 的 float */
+    display: inline-block;        /* 让列成为 inline-block，可以居中 */
+    vertical-align: top;          /* 多行时顶部对齐 */
+    margin: 0 12px;               /* 列之间的间距 */
+    text-align: center;           /* 列内部居中 */
+  }
+
+  /* 列内的第一个子元素（通常是卡片容器）居中 */
+  .row.justify-content-center > [class*="col-"] > * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 320px;  /* 限制卡片最大宽度，可以调小/调大 */
+    width: 100%;
   }
 </style>
 
@@ -35,7 +62,8 @@ use-site-title: false
 <div class="container" style="margin-bottom: 10px;"></div>
 
 
-<div class="container" style="margin-top: 25px;margin-bottom: 40px;">
+<!--<div class="container" style="margin-top: 25px;margin-bottom: 40px;">-->
+<div class="container text-center" style="margin-top: 25px;margin-bottom: 40px;">
   <!-- <br> 
   <div class="row"> -->
   <div class="row justify-content-center">
