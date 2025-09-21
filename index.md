@@ -158,7 +158,7 @@ By structuring discovery into these two phases—**optimization before experimen
 ### Experiment-guided Phase (Efficient Experimentation)
 
   
-<!--#### Symbolic Regression Methods-->
+#### Symbolic Regression Methods
 
 **Search Symbolic Regression Methods**
 
