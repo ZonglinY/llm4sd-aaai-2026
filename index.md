@@ -23,7 +23,7 @@ use-site-title: false
 <div class="container" style="margin-top: 25px;margin-bottom: 40px;">
   <!-- <br> 
   <div class="row"> -->
-  <div class="row">
+  <div class="row justify-content-center">
     {% for p in site.data.organizers %}
     {% if forloop.index<=4 %}
     {% capture id %}{{ p[0] }}{% endcapture %}
@@ -31,7 +31,7 @@ use-site-title: false
     {% endif %}
     {% endfor %}
   </div>
-  <div class="row">
+  <div class="row justify-content-center">
     {% for p in site.data.organizers %}
     {% capture id %}{{ p[0] }}{% endcapture %}
     {% if forloop.index>4 and forloop.index<=8%}
@@ -41,6 +41,8 @@ use-site-title: false
   </div>
 </div>
 <hr>
+
+
 
 
 <!-- # Program Committee
