@@ -1,21 +1,9 @@
-parshin:
-  name: "Parshin Shojaee"
-  url: "https://parshinsh.github.io/"
-  title: "PhD Student"
-  affiliation: "Virginia Tech"
-  img: "parshin-photo.jpg"
-nour:
-  name: "Nour Makke"
-  url: "https://scholar.google.com/citations?user=pb0Cw_QAAAAJ&hl=en"
-  title: "Postdoctoral Research Fellow"
-  affiliation: "Qatar Center for Artificial Intelligence"
-  img: "nour-photo.png"
-sanjay:
-  name: "Sanjay Chawla"
-  url: "https://www.hbku.edu.qa/en/staff/sanjay-chawla"
-  title: "Professor"
-  affiliation: "Qatar Center for Artificial Intelligence"
-  img: "sanjay-photo.png"
+zonglin:
+  name: "Zonglin Yang"
+  url: "https://zongliny.github.io/"
+  title: "Research Scientist"
+  affiliation: "MiroMind"
+  img: "zonglin-photo.jpg"
 chandan:
   name: "Chandan Reddy"
   url: "https://creddy.net/"
