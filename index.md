@@ -144,9 +144,9 @@ By structuring discovery into these two phases—**optimization with heuristics 
 
 ## Pre-experiment Phase
 
-- [Large Language Models for Automated Open-domain Scientific Hypotheses Discovery (ACL'24)](https://arxiv.org/abs/2309.02726)[[Github](https://github.com/ZonglinY/MOOSE)]
-- [MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses (ICLR'25)](https://arxiv.org/abs/2410.07076)[[Github](https://github.com/ZonglinY/MOOSE-Chem)]
-- [MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search (NeurIPS'25)](https://arxiv.org/abs/2505.19209)[[Github](https://github.com/ZonglinY/MOOSE-Chem2)]
+- [Large Language Models for Automated Open-domain Scientific Hypotheses Discovery (ACL'24)](https://arxiv.org/abs/2309.02726) [[Github](https://github.com/ZonglinY/MOOSE)]
+- [MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses (ICLR'25)](https://arxiv.org/abs/2410.07076) [[Github](https://github.com/ZonglinY/MOOSE-Chem)]
+- [MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search (NeurIPS'25)](https://arxiv.org/abs/2505.19209) [[Github](https://github.com/ZonglinY/MOOSE-Chem2)]
 - [ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition](https://arxiv.org/abs/2503.21248)
 
 
@@ -197,7 +197,7 @@ By structuring discovery into these two phases—**optimization with heuristics 
 - [LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models (ICML'25)](https://arxiv.org/abs/2504.10415) [[Github](https://github.com/deep-symbolic-mathematics/llm-srbench)] [[Dataset](https://huggingface.co/datasets/nnheui/llm-srbench)]
 
 ## Experiment-guided Phase (Costly Experimentation)
-- [MOOSE-Chem3: Toward Experiment-Guided Hypothesis Ranking via Simulated Experimental Feedback](https://arxiv.org/abs/2505.17873)[[Github](https://github.com/wanhaoliu/MOOSE-Chem3)]
+- [MOOSE-Chem3: Toward Experiment-Guided Hypothesis Ranking via Simulated Experimental Feedback](https://arxiv.org/abs/2505.17873) [[Github](https://github.com/wanhaoliu/MOOSE-Chem3)]
 
 <hr>
 
