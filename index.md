@@ -129,7 +129,7 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 - [Symbolic Regression with a Learned Concept Library (NeurIPS'24)](https://aclanthology.org/2024.acl-srw.49/) [[Github](https://github.com/trishullab/LibraryAugmentedSymbolicRegression.jl)]
 
 
-### SR Benchmarks
+**SR Benchmarks**  
 - [Contemporary Symbolic Regression Methods and their Relative Performance (NeurIPS'21)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html) [[Github](https://github.com/cavalab/srbench/)]
 - [Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery (DMLR'24)](https://openreview.net/forum?id=i2e2wqt0nAI) [[Github](https://github.com/omron-sinicx/srsd-benchmark)]
 - [LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models (ICML'25)](https://arxiv.org/abs/2504.10415) [[Github](https://github.com/deep-symbolic-mathematics/llm-srbench)] [[Dataset](https://huggingface.co/datasets/nnheui/llm-srbench)]
