@@ -118,11 +118,6 @@ use-site-title: false
 <hr> -->
 
 
-<!--# Taxonomy
-
-![Taxonomy-viz](./img/taxonomy.jpg)-->
-
-
 # About this Tutorial
 
 This tutorial presents a structured overview of how artificial intelligence can accelerate the **cycle of scientific discovery**, divided into two phases: the **pre-experiment phase**, where hypotheses are systematically searched and optimized, and the **experiment-guided phase**, where hypotheses are improved and prioritized by leveraging feedback from experiments. Together, these phases illustrate how AI can drive a **complete discovery cycle**, moving from hypothesis formulation to experimental impact.  
@@ -140,14 +135,14 @@ By structuring discovery into these two phases—**optimization with heuristics 
 
 # Reading List
 
-### Introduction
+## Introduction
 
 - [Interpretable scientific discovery with symbolic regression: a review](https://link.springer.com/article/10.1007/s10462-023-10622-0)
 - [Symbolic Regression is NP-hard](https://openreview.net/forum?id=LTiaPxqe2e)
 - [A Survey on Large Language Models for Scientific Research](https://arxiv.org/abs/2501.04306)
 
 
-### Pre-experiment Phase
+## Pre-experiment Phase
 
 - [Large Language Models for Automated Open-domain Scientific Hypotheses Discovery (ACL'24)](https://arxiv.org/abs/2309.02726)[[Github](https://github.com/ZonglinY/MOOSE)]
 - [MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses (ICLR'25)](https://arxiv.org/abs/2410.07076)[[Github](https://github.com/ZonglinY/MOOSE-Chem)]
@@ -155,10 +150,10 @@ By structuring discovery into these two phases—**optimization with heuristics 
 - [ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition](https://arxiv.org/abs/2503.21248)
 
 
-### Experiment-guided Phase (Efficient Experimentation)
+## Experiment-guided Phase (Efficient Experimentation)
 
   
-#### Symbolic Regression Methods
+### Symbolic Regression Methods
 
 **Search Symbolic Regression Methods**
 
@@ -196,10 +191,18 @@ By structuring discovery into these two phases—**optimization with heuristics 
 - [Symbolic Regression with a Learned Concept Library (NeurIPS'24)](https://aclanthology.org/2024.acl-srw.49/) [[Github](https://github.com/trishullab/LibraryAugmentedSymbolicRegression.jl)]
 
 
-#### Symbolic Regression Benchmarks  
+### Symbolic Regression Benchmarks  
 - [Contemporary Symbolic Regression Methods and their Relative Performance (NeurIPS'21)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html) [[Github](https://github.com/cavalab/srbench/)]
 - [Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery (DMLR'24)](https://openreview.net/forum?id=i2e2wqt0nAI) [[Github](https://github.com/omron-sinicx/srsd-benchmark)]
 - [LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models (ICML'25)](https://arxiv.org/abs/2504.10415) [[Github](https://github.com/deep-symbolic-mathematics/llm-srbench)] [[Dataset](https://huggingface.co/datasets/nnheui/llm-srbench)]
 
-### Experiment-guided Phase (Costly Experimentation)
+## Experiment-guided Phase (Costly Experimentation)
 - [MOOSE-Chem3: Toward Experiment-Guided Hypothesis Ranking via Simulated Experimental Feedback](https://arxiv.org/abs/2505.17873)[[Github](https://github.com/wanhaoliu/MOOSE-Chem3)]
+
+<hr>
+
+# Symbolic Regression Taxonomy
+
+credit: [Symbolic Regression Tutorial](https://symbolicregression2025.github.io/)
+
+![Taxonomy-viz](./img/taxonomy.jpg)
