@@ -5,6 +5,21 @@ use-site-title: false
 
 <h1 style="font-size: 60px; text-align: center;">Frontiers of LLMs for Automated Scientific Discovery: A Tutorial</h1>
 
+<style>
+  /* make sure profile is centered */
+  .profile {
+    text-align: center;
+  }
+
+  /* make sure image is centered */
+  .profile img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+
+
 
 <div class="venue" style="font-size: 24px; display: block; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #404040; text-align: center;">
   <span style="font-size: 23px; font-weight: 300;">
