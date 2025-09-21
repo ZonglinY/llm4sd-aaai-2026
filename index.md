@@ -133,7 +133,7 @@ In the **experiment-guided phase**, the key challenge is how to leverage experim
 
 When experiments are **costly and resource-intensive**, the central challenge is prioritization: only a few hypotheses can be tested, and AI can help rank candidates and direct scarce resources toward the most promising directions.  
 
-By structuring discovery into these two phases—**optimization before experiments, and feedback-guided prioritization after experiments**—this tutorial provides a comprehensive framework for **AI-assisted scientific discovery**.  
+By structuring discovery into these two phases—**optimization with heuristics before experiments, and optimizaition with experimental feedbacks**—this tutorial provides a complete cycle for **LLM-assisted scientific discovery**.  
 
 <hr>
 
