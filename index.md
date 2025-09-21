@@ -120,21 +120,15 @@ use-site-title: false
 
 # About this Tutorial
 
-This tutorial provides a comprehensive exploration of Symbolic Regression, an emerging area of AI focused on discovering interpretable mathematical expressions from data. As AI systems become increasingly integrated into critical domains, the ability to uncover transparent, mathematical relationships is essential for advancing scientific understanding and developing trustworthy AI systems. 
+This tutorial presents a structured overview of how artificial intelligence can accelerate the **cycle of scientific discovery**, divided into two phases: the **pre-experiment phase**, where hypotheses are systematically searched and optimized, and the **experiment-guided phase**, where hypotheses are improved and prioritized by leveraging feedback from experiments. Together, these phases illustrate how AI can drive a **complete discovery cycle**, moving from hypothesis formulation to experimental impact.  
 
-Recent advances in AI, particularly in deep learning and LLMs, have opened new paradigms in symbolic regression, enabling more sophisticated approaches to equation discovery and interpretation. These developments raise fundamental questions about how we can harness AI techniques to advance scientific understanding while maintaining interpretability.
+In the **pre-experiment phase**, the central question is: *How are scientific hypotheses fundamentally formulated?* Directly generating valid hypotheses from background knowledge is intractable. A key advance was to introduce a **foundational equation** that decomposes this challenge into tractable subtasks: retrieving inspirations, composing hypotheses, and ranking them. This provides a principled basis for **exploratory discovery**. Yet most generated hypotheses remain **coarse-grained**, too vague to guide experiments. To address this gap, researchers have introduced the task of **fine-grained hypothesis discovery**, which requires producing hypotheses with detailed methodological and experimental specifications. This task has been shown to have **combinatorial optimization complexity**, as it involves selecting coherent details from a vast space of possibilities. A hierarchical optimization strategy mitigates this complexity by progressively refining hypotheses across levels of abstraction, effectively **smoothing the hypothesis search landscape** and enabling more reliable convergence toward testable outcomes.  
 
-Our tutorial is guided by the central question:
-*"How can we leverage AI to discover meaningful mathematical expressions that advance scientific understanding while ensuring interpretability and trustworthiness?"*
-We will explore this question through a comprehensive journey that covers:
+In the **experiment-guided phase**, the key challenge is how to leverage experimental feedback as a guiding signal. In domains where experimentation is relatively **efficient**, **symbolic regression (SR)** provides a powerful framework. SR seeks to uncover explicit mathematical equations directly from data, producing models that are both predictive and **interpretable**. Unlike black-box predictors, SR reveals transparent structures that enhance scientific understanding and trust. The tutorial will trace SR’s **foundations and evolution**, from early search-based and evolutionary algorithms to recent AI-driven methods powered by deep learning and large language models. We will discuss how these approaches expand the expressiveness and scalability of SR, enabling it to discover equations in increasingly complex settings. Special attention will be given to **evaluation and benchmarking**: what makes an equation scientifically meaningful, how interpretability can be measured alongside accuracy, and how benchmarks can be designed to reflect real discovery goals. Finally, we highlight SR’s **practical impact** across physics, biology, and engineering, where interpretable equations not only validate hypotheses but also generate new insights that guide future research.  
 
-- **Foundations and Evolution**: How has symbolic regression evolved from traditional search-based methods to modern AI-driven approaches? What are the key principles and challenges in discovering interpretable mathematical expressions?
-- **Modern Approaches**: How do different paradigms - from evolutionary algorithms to transformer models and LLMs - contribute to equation discovery? How can we effectively combine these approaches?
-- **Evaluation and Benchmarking**: What constitutes meaningful evaluation in symbolic regression? How do we design benchmarks that truly capture the ability to discover interpretable mathematical relationships?
-- **Impact**: How can symbolic regression advance interpretable modeling and scientific discovery across different domains? What are the practical implications?
+When experiments are **costly and resource-intensive**, the central challenge is prioritization: only a few hypotheses can be tested, and AI can help rank candidates and direct scarce resources toward the most promising directions.  
 
-The tutorial is designed for researchers and practitioners in machine learning, AI, and scientific domains who seek to understand and contribute to the advancement of interpretable modeling. While familiarity with basic machine learning concepts is helpful, no prior experience with symbolic regression is required.
-Through this tutorial, attendees will gain both theoretical understanding and practical insights into symbolic regression, positioning them to contribute to this evolving field and its applications across science and industry.
+By structuring discovery into these two phases—**optimization before experiments, and feedback-guided prioritization after experiments**—this tutorial provides a comprehensive framework for **AI-assisted scientific discovery**.  
 
 <hr>
 
@@ -143,14 +137,25 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 
 ### Introduction
 
-- [A Survey on Large Language Models for Scientific Research](https://arxiv.org/abs/2501.04306)
 - [Interpretable scientific discovery with symbolic regression: a review](https://link.springer.com/article/10.1007/s10462-023-10622-0)
-- [Symbolic Regression is NP-hard](https://openreview.net/forum?id=LTiaPxqe2e) 
+- [Symbolic Regression is NP-hard](https://openreview.net/forum?id=LTiaPxqe2e)
+- [A Survey on Large Language Models for Scientific Research](https://arxiv.org/abs/2501.04306)
+
+
+### Pre-experiment Phase
+
+- [Large Language Models for Automated Open-domain Scientific Hypotheses Discovery (ACL'24)](https://arxiv.org/abs/2309.02726)[[Github](https://github.com/ZonglinY/MOOSE)]
+- [MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses (ICLR'25)](https://arxiv.org/abs/2410.07076)[[Github](https://github.com/ZonglinY/MOOSE-Chem)]
+- [MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search (NeurIPS'25)](https://arxiv.org/abs/2505.19209)[[Github](https://github.com/ZonglinY/MOOSE-Chem2)]
+- [ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition](https://arxiv.org/abs/2503.21248)
+
+
+### Experiment-guided Phase (Efficient Experimentation)
 
   
-### Methods
+<!--#### Symbolic Regression Methods-->
 
-**Search SR Methods**
+**Search Symbolic Regression Methods**
 
 - [Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl](https://arxiv.org/abs/2305.01582) [[Github](https://github.com/MilesCranmer/PySR)]
 - [Gene-pool Optimal Mixing Evolutionary Algorithm for Genetic Programming (Evolutionary Computation'21)](https://www.science.org/doi/10.1126/sciadv.aay2631) [[Github](https://github.com/marcovirgolin/GP-GOMEA)]
@@ -162,7 +167,7 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 
 
 
-**Learning SR Methods**
+**Learning Symbolic Regression Methods**
 
 - [Neural Symbolic Regression that scales (ICML'21)](https://proceedings.mlr.press/v139/biggio21a.html) [[Github](https://github.com/SymposiumOrganization/NeuralSymbolicRegressionThatScales)]
 - [End-to-end Symbolic Regression with Transformers (NeurIPS'22)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/42eb37cdbefd7abae0835f4b67548c39-Abstract-Conference.html) [[Github](https://github.com/facebookresearch/symbolicregression)]
@@ -171,7 +176,7 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 - [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training (ICLR'24)](https://openreview.net/forum?id=KZSEgJGPxu) [[Github](https://github.com/deep-symbolic-mathematics/Multimodal-Math-Pretraining)]
 
 
-**Learning + Search SR Methods**
+**Learning + Search Symbolic Regression Methods**
 
 - [Transformer-based Planning for Symbolic Regression (NeurIPS'23)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8ffb4e3118280a66b192b6f06e0e2596-Abstract-Conference.html) [[Github](https://github.com/deep-symbolic-mathematics/TPSR)]
 - [A Unified Framework for Deep Symbolic Regression (NeurIPS'22)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/dbca58f35bddc6e4003b2dd80e42f838-Abstract-Conference.html) [[Github](https://github.com/dso-org/deep-symbolic-optimization)]
@@ -180,13 +185,16 @@ Through this tutorial, attendees will gain both theoretical understanding and pr
 - [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training (ICLR'24)](https://openreview.net/forum?id=KZSEgJGPxu) [[Github](https://github.com/deep-symbolic-mathematics/Multimodal-Symbolic-Regression)]
 
 
-**LLM-guided SR  Methods**
+**LLM-guided Symbolic Regression Methods**
 - [LLM-SR: Scientific Equation Discovery via Programming with Large Language Models (ICLR'25)](https://openreview.net/forum?id=m2nmp8P5in) [[Github](https://github.com/deep-symbolic-mathematics/LLM-SR)]
 - [In-Context Symbolic Regression: Leveraging Large Language Models for Function Discovery (ACL'24)](https://aclanthology.org/2024.acl-srw.49/) [[Github](https://github.com/merlerm/In-Context-Symbolic-Regression)]
 - [Symbolic Regression with a Learned Concept Library (NeurIPS'24)](https://aclanthology.org/2024.acl-srw.49/) [[Github](https://github.com/trishullab/LibraryAugmentedSymbolicRegression.jl)]
 
 
-**SR Benchmarks**  
+#### Symbolic Regression Benchmarks  
 - [Contemporary Symbolic Regression Methods and their Relative Performance (NeurIPS'21)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html) [[Github](https://github.com/cavalab/srbench/)]
 - [Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery (DMLR'24)](https://openreview.net/forum?id=i2e2wqt0nAI) [[Github](https://github.com/omron-sinicx/srsd-benchmark)]
 - [LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models (ICML'25)](https://arxiv.org/abs/2504.10415) [[Github](https://github.com/deep-symbolic-mathematics/llm-srbench)] [[Dataset](https://huggingface.co/datasets/nnheui/llm-srbench)]
+
+### Experiment-guided Phase (Costly Experimentation)
+- [MOOSE-Chem3: Toward Experiment-Guided Hypothesis Ranking via Simulated Experimental Feedback](https://arxiv.org/abs/2505.17873)[[Github](https://github.com/wanhaoliu/MOOSE-Chem3)]
