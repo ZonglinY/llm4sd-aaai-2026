@@ -12,15 +12,15 @@
 # If you are building a GitHub project page then use these settings:
 url: "https://llm4sd.io"
 baseurl: ""
-timezone: "America/Los_Angeles"
+timezone: "Asia/Singapore"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Symbolic Regression Tutorial
+title: Frontiers of LLMs for Automated Scientific Discovery
 
 # Short description of your site
-description: Symbolic-Regression
+description: Automated-Scientific-Discovery
 
 # Your name to show in the footer
 # author: 
@@ -29,9 +29,9 @@ description: Symbolic-Regression
 # --- List of links in the navigation bar --- #
 ###############################################
 
-navbar-links:
-  Slides: 
-  - Download: "https://drive.usercontent.google.com/download?id=1xMh5_p7oQ_OJfNJn49Y--KQnY1lzjHBL&export=download&authuser=0&confirm=t&uuid=f7060d26-aa22-414a-ab08-c4404afd1e67&at=AEz70l4IivjA5kasuUgxwguOaf_r:1740461658682"
+# navbar-links:
+  # Slides: 
+  # - Download: "https://drive.usercontent.google.com/download?id=1xMh5_p7oQ_OJfNJn49Y--KQnY1lzjHBL&export=download&authuser=0&confirm=t&uuid=f7060d26-aa22-414a-ab08-c4404afd1e67&at=AEz70l4IivjA5kasuUgxwguOaf_r:1740461658682"
   # About Totorial: "about"
   # Schedule: "schedule"
   # Reading List: "reading"
@@ -60,7 +60,7 @@ footer-link-col: "#404040"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author: Organizers of the Symbolic Regression Tutorial
+author: Zonglin Yang, Chandan K. Reddy
 
 
 # Image to show in the navigation bar - works best with a square image
@@ -83,7 +83,8 @@ author: Organizers of the Symbolic Regression Tutorial
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "ckreddy@vt.edu"
+  # email: "ckreddy@vt.edu"
+  email: "zonglin.yang@ntu.edu.sg"
   # rss: true  # remove this line if you don't want to show an RSS link at the bottom
   # facebook: deanattali
   # github: daattali
@@ -133,7 +134,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "symbolicregression25.github.io"
+url-pretty: "llm4sd.io"
 
 # # Add the website title to the title of every page
 # title-on-all-pages: true
