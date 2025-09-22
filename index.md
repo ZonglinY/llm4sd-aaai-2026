@@ -3,7 +3,7 @@ layout: page
 use-site-title: false
 ---
 
-<h1 style="font-size: 60px; text-align: center;">Frontiers of LLMs for Automated Scientific Discovery: A Tutorial</h1>
+<h1 style="font-size: 60px; text-align: center;">Agentic AI for Scientific Discovery: Benchmarks, Frameworks, and Applications</h1>
 
 <style>
   /* Speakers layout: predictable, centered, wraps cleanly */
