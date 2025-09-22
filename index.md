@@ -34,15 +34,16 @@ use-site-title: false
 
   /* Photo */
   .speaker-photo {
-    width: 300px;
-    height: 300px;
-    object-fit: contain;     /* show the whole image, no crop */
-    object-position: center; /* center the photo inside the circle */
+    width: 220px;
+    height: 220px;
+    object-fit: contain;     
+    object-position: center;
     border-radius: 50%;
-    background-color: #fff;  /* fills any empty space with white */
+    background-color: #fff;
     display: block;
     margin-bottom: 12px;
   }
+
 
 
 
