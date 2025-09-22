@@ -19,7 +19,7 @@ use-site-title: false
   .speakers > [class*="col-"] {
     float: none !important;
     padding: 0;
-    flex: 0 1 300px;         /* card width; tweak 280–340px if you like */
+    flex: 0 1 240px;   /* was 300px, now smaller */
   }
 
   /* Card: vertical stack */
