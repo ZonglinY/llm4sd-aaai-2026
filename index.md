@@ -119,9 +119,69 @@ use-site-title: false
 <hr> -->
 
 
-# About this Tutorial
 
-This tutorial presents a structured overview of how large language models (LLMs) can accelerate the **cycle of scientific discovery**, divided into two phases: the **pre-experiment phase**, which focuses on **search and optimization guided by LLMs’ internal heuristics**, and the **experiment-guided phase**, which emphasizes **optimization with experimental feedback**. Together, these phases illustrate how LLMs can drive a **complete discovery cycle**, moving from hypothesis formulation to experimental impact.  
+# Detailed Tutorial Description
+
+## Overview
+The rise of large language models (LLMs) has introduced a paradigm shift in how AI can contribute to science. Beyond serving as static predictors, LLMs can function as agents that actively generate, refine, and evaluate hypotheses. This tutorial provides a structured overview of how agentic AI can accelerate the scientific discovery process, grounded in recent advances in benchmarks, frameworks, and applications.
+
+## Motivation
+Traditional machine learning excels at prediction but falls short in hypothesis-driven discovery, where novelty, interpretability, and iterative reasoning are essential. The promise of agentic AI lies in closing this gap. By structuring the discovery process into two complementary phases, we highlight how AI can play an active role in advancing science:
+
+1. **Hypothesis Generation** – AI agents propose candidate hypotheses by retrieving inspirations, composing associations, and ranking them for plausibility.  
+2. **Feedback and Refinement** – Hypotheses are iteratively improved using diverse feedback signals, including data fit, reasoning consistency, symbolic decomposition, or benchmark performance.  
+
+This cycle mirrors the way human scientists move from initial ideas to refined, testable hypotheses, but accelerates it through automated reasoning and structured agentic workflows.
+
+## Tutorial Outline
+1. **Introduction to Agentic AI in Science**  
+   - From prediction to discovery  
+   - Defining “agentic AI” and distinguishing it from static LLM use  
+   - Motivating examples  
+
+2. **Phase I: Hypothesis Generation**  
+   - Inspiration retrieval and knowledge recombination  
+   - From qualitative hypotheses to symbolic formulations  
+   - Ranking strategies and novelty assessment  
+
+3. **Phase II: Feedback and Refinement**  
+   - Iterative optimization using feedback signals  
+   - Data-driven evaluation, symbolic decomposition, and reasoning consistency checks  
+   - Hierarchical refinement from coarse ideas to fine-grained hypotheses  
+
+4. **Benchmarks for Scientific Discovery**  
+   - Limitations of existing datasets (memorization vs reasoning)  
+   - Principles for robust benchmark design  
+   - Recent benchmarks for equations, hypotheses, and surfaces  
+
+5. **Frameworks for Agentic Discovery**  
+   - Decomposition strategies, memory mechanisms, and feedback loops  
+   - Integration of evolutionary search and reinforcement learning  
+   - Examples of agentic workflows  
+
+6. **Applications Across Sciences**  
+   - Social sciences (open-domain hypothesis generation)  
+   - Natural sciences (equation discovery, symbolic modeling)  
+   - Broader applications in AI for science  
+
+7. **Challenges and Future Directions**  
+   - Reliability, interpretability, reproducibility  
+   - Balancing creativity and validity  
+   - Toward hybrid AI–science collaborations  
+
+## Target Audience
+Researchers and practitioners in machine learning, NLP, and AI for science who are interested in symbolic reasoning, agentic frameworks, and automated discovery. The tutorial is accessible to those with general familiarity with LLMs and does not require deep domain expertise.
+
+## Learning Outcomes
+Participants will gain:
+- An understanding of the two-phase cycle of agentic scientific discovery.  
+- Exposure to recent benchmarks for evaluating reasoning beyond memorization.  
+- Insight into frameworks that integrate decomposition, evolutionary search, and feedback mechanisms.  
+- Awareness of applications across disciplines and the challenges they expose.  
+- A forward-looking perspective on building reliable, interpretable science-focused agents.  
+
+
+<!--This tutorial presents a structured overview of how large language models (LLMs) can accelerate the **cycle of scientific discovery**, divided into two phases: the **pre-experiment phase**, which focuses on **search and optimization guided by LLMs’ internal heuristics**, and the **experiment-guided phase**, which emphasizes **optimization with experimental feedback**. Together, these phases illustrate how LLMs can drive a **complete discovery cycle**, moving from hypothesis formulation to experimental impact.  
 
 In the **pre-experiment phase**, the central question is: *How are scientific hypotheses fundamentally formulated?* Directly generating valid hypotheses from background knowledge is intractable. A key advance was to introduce a **foundational equation** that decomposes this challenge into tractable subtasks: retrieving inspirations, composing hypotheses, and ranking them. This provides a principled basis for **exploratory discovery**. Yet most generated hypotheses remain **coarse-grained**, too vague to guide experiments. To address this gap, researchers have introduced the task of **fine-grained hypothesis discovery**, which requires producing hypotheses with detailed methodological and experimental specifications. This task has been shown to have **combinatorial optimization complexity**, as it involves selecting coherent details from a vast space of possibilities. A hierarchical optimization strategy mitigates this complexity by progressively refining hypotheses across levels of abstraction, effectively **smoothing the hypothesis search landscape** and enabling more reliable convergence toward testable outcomes.  
 
@@ -129,7 +189,9 @@ In the **experiment-guided phase**, the key challenge is how to harness experime
 
 When experiments are **costly and resource-intensive**, the challenge shifts to prioritization: only a few hypotheses can be tested, and AI can help rank candidates and direct scarce resources toward the most promising directions.  
 
-By structuring discovery into these two phases—**optimization with heuristics before experiments, and optimization with experimental feedback**—this tutorial provides a **complete cycle** for **LLM-assisted scientific discovery**.  
+By structuring discovery into these two phases—**optimization with heuristics before experiments, and optimization with experimental feedback**—this tutorial provides a **complete cycle** for **LLM-assisted scientific discovery**.  -->
+
+
 
 <hr>
 
@@ -202,8 +264,8 @@ By structuring discovery into these two phases—**optimization with heuristics 
 
 <hr>
 
-# Symbolic Regression Taxonomy
+<!--# Symbolic Regression Taxonomy
 
 credit: [Symbolic Regression Tutorial](https://symbolicregression2025.github.io/)
 
-![Taxonomy-viz](./img/taxonomy.jpg)
+![Taxonomy-viz](./img/taxonomy.jpg)-->
