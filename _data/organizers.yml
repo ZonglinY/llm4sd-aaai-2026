@@ -10,3 +10,15 @@ chandan:
   title: "Professor"
   affiliation: "Virginia Tech"
   img: "chandan-photo.jpg"
+xinya:
+  name: "Xinya Du"
+  url: "https://xinyadu.github.io/"
+  title: "Assistant Professor"
+  affiliation: "University of Texas at Dallas"
+  img: "xinya-photo.jpg"
+mengdi:
+  name: "Mengdi Wang"
+  url: "https://mwang.princeton.edu/"
+  title: "Professor"
+  affiliation: "Princeton University"
+  img: "mengdi-photo.jpg"
