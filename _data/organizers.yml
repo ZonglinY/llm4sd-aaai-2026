@@ -4,15 +4,15 @@ zonglin:
   title: "Research Scientist"
   affiliation: "MiroMind"
   img: "zonglin-photo.jpeg"
-chandan:
-  name: "Chandan Reddy"
-  url: "https://creddy.net/"
-  title: "Professor"
-  affiliation: "Virginia Tech"
-  img: "chandan-photo.jpg"
 xinya:
   name: "Xinya Du"
   url: "https://xinyadu.github.io/"
   title: "Assistant Professor"
   affiliation: "University of Texas at Dallas"
   img: "xinya-photo.jpg"
+chandan:
+  name: "Chandan Reddy"
+  url: "https://creddy.net/"
+  title: "Professor"
+  affiliation: "Virginia Tech"
+  img: "chandan-photo.jpg"
