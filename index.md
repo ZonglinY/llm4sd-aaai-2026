@@ -200,9 +200,11 @@ By structuring discovery into these two phases—**optimization with heuristics 
 
 ## Introduction
 
-- [Interpretable scientific discovery with symbolic regression: a review](https://link.springer.com/article/10.1007/s10462-023-10622-0)
-- [Symbolic Regression is NP-hard](https://openreview.net/forum?id=LTiaPxqe2e)
+- [Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges (AAAI'25)](https://creddy.net/papers/AAAI25.pdf)
 - [A Survey on Large Language Models for Scientific Research](https://arxiv.org/abs/2501.04306)
+- [Transformer-Based Planning for Symbolic Regression (NeurIPS'23)](https://creddy.net/papers/NeurIPS23a.pdf)
+- [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training (ICLR'24)](https://creddy.net/papers/ICLR24.pdf)
+- [Evaluating Large Language Models in Scientific Discovery](https://arxiv.org/abs/2512.15567)
 
 
 ## Pre-experiment Phase
@@ -215,52 +217,17 @@ By structuring discovery into these two phases—**optimization with heuristics 
 
 ## Experiment-guided Phase (Efficient Experimentation)
 
-  
-### Symbolic Regression Methods
-
-**Search Symbolic Regression Methods**
-
-- [Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl](https://arxiv.org/abs/2305.01582) [[Github](https://github.com/MilesCranmer/PySR)]
-- [Gene-pool Optimal Mixing Evolutionary Algorithm for Genetic Programming (Evolutionary Computation'21)](https://www.science.org/doi/10.1126/sciadv.aay2631) [[Github](https://github.com/marcovirgolin/GP-GOMEA)]
-- [Symbolic Regression via Neural-Guided Genetic Programming Population Seeding (NeurIPS'21)](https://arxiv.org/abs/2111.00053) [[Github](https://github.com/dso-org/deep-symbolic-optimization)]
-- [Symbolic Physics Learner: Discovering governing equations via Monte Carlo tree search (ICLR'23)](https://openreview.net/forum?id=ZTK3SefE8_Z) [[Github](https://github.com/isds-neu/SymbolicPhysicsLearner)]
-- [AI Feynman: A physics-inspired method for symbolic regression (Science Advances)](https://www.science.org/doi/10.1126/sciadv.aay2631) [[Github](https://github.com/SJ001/AI-Feynman)]
-- [Deep symbolic regression: Recovering mathematical expressions from data via risk-seeking policy gradients (ICLR'21)](https://openreview.net/forum?id=m5Qsh0kBQG) [[Github](https://github.com/dso-org/deep-symbolic-optimization)]
+- [LLM-SR: Scientific Equation Discovery via Programming with Large Language Models (ICLR'25 Oral)](https://creddy.net/papers/ICLR25.pdf)
+- [LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models (ICML'25 Oral)](https://creddy.net/papers/ICML25.pdf)
+- [Data-Efficient Symbolic Regression via Foundation Model Distillation](https://arxiv.org/abs/2508.19487)
+- [SURFACEBENCH: Can Self-Evolving LLMs Find the Equations of 3D Scientific Surfaces?](https://arxiv.org/abs/2511.10833)
+- [Decompose, Adapt, and Evolve: Towards Efficient Scientific Equation Discovery with Large Language Models (NeurIPS'25 Mathematical Reasoning and AI workshop)](https://openreview.net/forum?id=lbwWQg4q8A)
 
 
-
-
-**Learning Symbolic Regression Methods**
-
-- [Neural Symbolic Regression that scales (ICML'21)](https://proceedings.mlr.press/v139/biggio21a.html) [[Github](https://github.com/SymposiumOrganization/NeuralSymbolicRegressionThatScales)]
-- [End-to-end Symbolic Regression with Transformers (NeurIPS'22)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/42eb37cdbefd7abae0835f4b67548c39-Abstract-Conference.html) [[Github](https://github.com/facebookresearch/symbolicregression)]
-- [SymFormer: End-to-end symbolic regression using transformer-based architecture](https://arxiv.org/abs/2205.15764) [[Github](https://github.com/vastlik/symformer)]
-- [SymbolicGPT: A Generative Transformer Model for Symbolic Regression](https://arxiv.org/abs/2106.14131) [[Github](https://github.com/mojivalipour/symbolicgpt)]
-- [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training (ICLR'24)](https://openreview.net/forum?id=KZSEgJGPxu) [[Github](https://github.com/deep-symbolic-mathematics/Multimodal-Math-Pretraining)]
-
-
-**Learning + Search Symbolic Regression Methods**
-
-- [Transformer-based Planning for Symbolic Regression (NeurIPS'23)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8ffb4e3118280a66b192b6f06e0e2596-Abstract-Conference.html) [[Github](https://github.com/deep-symbolic-mathematics/TPSR)]
-- [A Unified Framework for Deep Symbolic Regression (NeurIPS'22)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/dbca58f35bddc6e4003b2dd80e42f838-Abstract-Conference.html) [[Github](https://github.com/dso-org/deep-symbolic-optimization)]
-- [Deep Generative Symbolic Regression (ICLR'23)](https://openreview.net/forum?id=o7koEEMA1bR) [[Github](https://github.com/samholt/DeepGenerativeSymbolicRegression)]
-- [Efficient Generator of Mathematical Expressions for Symbolic Regression (Machine Learning'23)](https://link.springer.com/article/10.1007/s10994-023-06400-2) [[Github](https://github.com/smeznar/HVAE)]
-- [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training (ICLR'24)](https://openreview.net/forum?id=KZSEgJGPxu) [[Github](https://github.com/deep-symbolic-mathematics/Multimodal-Symbolic-Regression)]
-
-
-**LLM-guided Symbolic Regression Methods**
-- [LLM-SR: Scientific Equation Discovery via Programming with Large Language Models (ICLR'25)](https://openreview.net/forum?id=m2nmp8P5in) [[Github](https://github.com/deep-symbolic-mathematics/LLM-SR)]
-- [In-Context Symbolic Regression: Leveraging Large Language Models for Function Discovery (ACL'24)](https://aclanthology.org/2024.acl-srw.49/) [[Github](https://github.com/merlerm/In-Context-Symbolic-Regression)]
-- [Symbolic Regression with a Learned Concept Library (NeurIPS'24)](https://aclanthology.org/2024.acl-srw.49/) [[Github](https://github.com/trishullab/LibraryAugmentedSymbolicRegression.jl)]
-
-
-### Symbolic Regression Benchmarks  
-- [Contemporary Symbolic Regression Methods and their Relative Performance (NeurIPS'21)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html) [[Github](https://github.com/cavalab/srbench/)]
-- [Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery (DMLR'24)](https://openreview.net/forum?id=i2e2wqt0nAI) [[Github](https://github.com/omron-sinicx/srsd-benchmark)]
-- [LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models (ICML'25)](https://arxiv.org/abs/2504.10415) [[Github](https://github.com/deep-symbolic-mathematics/llm-srbench)] [[Dataset](https://huggingface.co/datasets/nnheui/llm-srbench)]
 
 ## Experiment-guided Phase (Costly Experimentation)
-- [MOOSE-Chem3: Toward Experiment-Guided Hypothesis Ranking via Simulated Experimental Feedback](https://arxiv.org/abs/2505.17873) [[Github](https://github.com/wanhaoliu/MOOSE-Chem3)]
+- [MOOSE-Chem3: Toward Experiment-Guided Hypothesis Ranking via Simulated Experimental Feedback (NeurIPS'25 AI4S workshop)](https://arxiv.org/abs/2505.17873) [[Github](https://github.com/wanhaoliu/MOOSE-Chem3)]
+- [Accelerating Materials Design via LLM-Guided Evolutionary Search](https://arxiv.org/abs/2510.22503)
 
 <hr>
 
