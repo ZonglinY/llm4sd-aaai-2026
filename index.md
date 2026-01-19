@@ -228,6 +228,9 @@ By structuring discovery into these two phases—**optimization with heuristics 
 ## Experiment-guided Phase (Costly Experimentation)
 - [MOOSE-Chem3: Toward Experiment-Guided Hypothesis Ranking via Simulated Experimental Feedback (NeurIPS'25 AI4S workshop)](https://arxiv.org/abs/2505.17873) [[Github](https://github.com/wanhaoliu/MOOSE-Chem3)]
 - [Accelerating Materials Design via LLM-Guided Evolutionary Search](https://arxiv.org/abs/2510.22503)
+- [Mlr-copilot: Autonomous machine learning research based on large language models agents](https://arxiv.org/abs/2408.14033)
+- [LMR-BENCH: Evaluating LLM Agent's Ability on Reproducing Language Modeling Research](https://arxiv.org/abs/2506.17335)
+- [Learning to Generate Research Idea with Dynamic Control (AAAI'25 AI4Research workshop)](https://openreview.net/forum?id=zCb0dPvGYN)
 
 <hr>
 
