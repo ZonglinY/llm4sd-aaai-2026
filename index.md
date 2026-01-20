@@ -56,6 +56,15 @@ use-site-title: false
     line-height: 1.3;
   }
 
+  /* Note under speaker name (e.g., representing Xinya Du) */
+  .speaker-note {
+    display: block;
+    margin: 0 0 4px;
+    line-height: 1.2;
+    font-size: 0.92em;
+    color: #777;
+  }
+
   /* Affiliation — reserve up to 3 lines so cards align */
   .speaker-affil {
     display: block;
@@ -86,7 +95,7 @@ use-site-title: false
 
 
 <!-- Speakers -->
-<div class="container text-center" style="margin-top:25px;margin-bottom:40px;">
+<!--<div class="container text-center" style="margin-top:25px;margin-bottom:40px;">
   <div class="row speakers">
     {% for p in site.data.organizers %}
       {% assign person = p[1] %}
@@ -103,7 +112,39 @@ use-site-title: false
     {% endfor %}
   </div>
 </div>
+<hr>-->
+
+<!-- Speakers -->
+<div class="container text-center" style="margin-top:25px;margin-bottom:40px;">
+  <div class="row speakers">
+    {% for p in site.data.organizers %}
+      {% assign person = p[1] %}
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="speaker-card">
+          <img class="speaker-photo"
+               src="{{ site.baseurl }}/img/{{ person.img }}"
+               alt="{{ person.name }}"
+               loading="lazy">
+
+          <a class="speaker-name"
+             href="{{ person.url }}"
+             target="_blank"
+             rel="noopener">
+            {{ person.name }}
+          </a>
+
+          {% if person.note %}
+            <small class="speaker-note">({{ person.note }})</small>
+          {% endif %}
+
+          <small class="speaker-affil">{{ person.affiliation }}</small>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 <hr>
+
 
 
 
