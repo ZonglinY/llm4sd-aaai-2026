@@ -4,6 +4,12 @@ zonglin:
   title: "Research Scientist"
   affiliation: "MiroMind"
   img: "zonglin-photo.jpeg"
+ruochen:
+  name: "RuoChen Li"
+  url: "https://scholar.google.com/citations?hl=en&user=cUNnSaEAAAAJ"
+  title: "PhD student"
+  affiliation: "University of Texas at Dallas"
+  img: "ruochen-photo.jpg"
 xinya:
   name: "Xinya Du"
   url: "https://xinyadu.github.io/"
