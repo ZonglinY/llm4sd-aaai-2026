@@ -163,11 +163,12 @@ use-site-title: false
 <div class="tutorial-slides">
   <h2>Slides</h2>
   <ul>
-    <li><a href="[https://你的链接/part1.pdf](https://docs.google.com/presentation/d/1n92tzyFGcDAsQG4uZ_jIGQV39jgCrEAP/edit?usp=sharing&ouid=111093169629314886898&rtpof=true&sd=true)" target="_blank">Part 1: Title</a></li>
+    <li><a href="https://docs.google.com/presentation/d/10s8MNV_jZT5nCZoMO6ENFCnswNf2dkmpEuqjGUWYE5c/edit?usp=sharing" target="_blank">Part 1: Title</a></li>
     <!-- <li><a href="https://你的链接/part2.pdf" target="_blank">Part 2: Title</a></li>
     <li><a href="https://你的链接/part3.pdf" target="_blank">Part 3: Title</a></li> -->
   </ul>
 </div>
+
 
 
 
