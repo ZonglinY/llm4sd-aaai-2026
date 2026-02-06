@@ -165,7 +165,7 @@ use-site-title: false
   <ul>
     <li><a href="https://docs.google.com/presentation/d/10s8MNV_jZT5nCZoMO6ENFCnswNf2dkmpEuqjGUWYE5c/edit?usp=sharing" target="_blank">Part 1: by Chandan Reddy</a></li>
     <li><a href="https://docs.google.com/presentation/d/1n92tzyFGcDAsQG4uZ_jIGQV39jgCrEAP/edit?usp=sharing&ouid=111093169629314886898&rtpof=true&sd=true" target="_blank">Part 2: by Zonglin Yang</a></li>
-    <li><a href="https://scholar.google.com/citations?hl=en&user=cUNnSaEAAAAJ" target="_blank">Part 3: by Ruochen Li</a></li>
+    <li><a href="https://docs.google.com/presentation/d/1Ek-mPEpsjlvNbk7U9xp1o1G0NwE-x_Mu0E7M_5zILq8/edit?usp=sharing" target="_blank">Part 3: by Ruochen Li</a></li>
   </ul>
 </div>
 
